@@ -9,6 +9,7 @@ This directory contains instructor-facing presentation guides for the live four-
 3. [day-02-intent-recovery-and-dynamic-context.md](day-02-intent-recovery-and-dynamic-context.md)
 4. [day-03-review-discipline-and-workflow-design.md](day-03-review-discipline-and-workflow-design.md)
 5. [day-04-operating-system-and-continuous-improvement.md](day-04-operating-system-and-continuous-improvement.md)
+6. [demo-artifacts/README.md](demo-artifacts/README.md)
 
 ## How to Use These Files
 
@@ -26,6 +27,8 @@ Each file includes:
 - demo ideas
 - demo rubric
 - supporting course files
+
+The `demo-artifacts/` directory contains ready-made examples instructors can open directly during class.
 
 ## Delivery Notes
 
