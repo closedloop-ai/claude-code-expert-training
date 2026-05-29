@@ -8,6 +8,8 @@ The live teaching model assumes the cohort already contains useful partial knowl
 
 Use [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md) for the day-by-day schedule. Use this syllabus to understand what each lab contributes to the larger course.
 
+For Day 1 teaching details on marketplace usage, plugins versus skills versus commands, and model selection, use [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md).
+
 ## Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
 
 Participants install prerequisites, configure terminal ergonomics, review IDE and terminal usage patterns, run the demo repo, and build a shared vocabulary around permissions, safety, and warm-up habits.
@@ -32,6 +34,10 @@ Participants learn the building blocks underneath Claude Code: context windows, 
 
 Topics:
 - primitive selection
+- the operating DNA of a tool, skill, agent, and subagent
+- skill creation and when to mint a new reusable skill
+- interactive versus headless execution
+- goal mode and debate mode
 - stop conditions
 - when to escalate from prompt to workflow
 - choosing directness versus reuse
@@ -45,7 +51,10 @@ Participants take a piece of work and turn it into an execution-ready plan. Topi
 
 Topics:
 - clarifying vague requests
+- context window management and compaction discipline
+- artifact-first planning instead of transcript-first planning
 - planning before editing
+- using debate review to pressure-test a plan before implementation
 - defining phases and verification gates
 - handoff-quality execution briefs
 
@@ -140,6 +149,7 @@ Lab 00 is the onboarding lab and should be completed before the main sequence wh
 ## Cross-Course Instructor Material
 
 - [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md)
+- [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
 - [WORKFLOW-INTEGRATION.md](WORKFLOW-INTEGRATION.md)
 - [TRANSCRIPT-CHEAT-SHEET.md](TRANSCRIPT-CHEAT-SHEET.md)

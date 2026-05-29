@@ -68,8 +68,11 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 ### Teaching Focus
 
 - operating model for Claude Code
-- primitives and abstraction choices
+- tools, skills, and the operating DNA of agents and subagents
+- interactive versus headless execution, goal mode, and debate mode
+- using a skill-creation workflow to mint new reusable skills
 - converting ambiguous work into bounded execution plans
+- managing the context window so planning artifacts stay compact and reusable
 
 ### Labs
 
@@ -79,6 +82,8 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 ### Expected Outputs
 
 - primitive decision worksheet
+- agent and skill anatomy notes
+- draft skill definition for one repeated team task
 - execution brief
 - context map
 - open-question register

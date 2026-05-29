@@ -60,7 +60,9 @@ By the end of the course, participants should be able to:
 
 - establish a reliable local Claude Code environment and repo warm-up routine
 - select the correct primitive or abstraction for a given task
-- convert ambiguous work into an execution brief with explicit assumptions and boundaries
+- explain the operating DNA of tools, skills, agents, subagents, hooks, MCP servers, and workflows
+- decide when to work interactively, when to run headless, when to use goal mode, and when to use debate mode
+- convert ambiguous work into an execution brief with explicit assumptions, context boundaries, and compact handoff artifacts
 - recover implementation intent from Git and GitHub artifacts before making changes
 - connect Claude to useful dynamic data sources instead of relying on static prompts alone
 - evaluate diffs, tests, and verification output with adversarial rigor
@@ -83,8 +85,10 @@ By the end of the course, participants should be able to:
 Primary course entry points:
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
+- [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
+- [slides/day-01-foundations-and-work-intake.md](slides/day-01-foundations-and-work-intake.md)
 - [docs/TOOL-PERMISSIONS-EXAMPLES.md](docs/TOOL-PERMISSIONS-EXAMPLES.md)
 - [docs/WORKFLOW-INTEGRATION.md](docs/WORKFLOW-INTEGRATION.md)
 - [docs/TRANSCRIPT-CHEAT-SHEET.md](docs/TRANSCRIPT-CHEAT-SHEET.md)
@@ -108,6 +112,7 @@ Students will get the most from the course if they:
 Participants should review the following before or during the course:
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
+- [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [docs/WORKFLOW-INTEGRATION.md](docs/WORKFLOW-INTEGRATION.md)
 - [docs/TOOL-PERMISSIONS-EXAMPLES.md](docs/TOOL-PERMISSIONS-EXAMPLES.md)

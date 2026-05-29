@@ -16,6 +16,14 @@ Each new concept starts with a cohort share-out:
 3. Review discipline and workflow design
 4. Operating system and continuous improvement
 
+Day 1 specifics:
+- tools, skills, and agent/subagent anatomy
+- plugins, marketplace use, and packaging strategy
+- skill creation for repeated workflows
+- interactive versus headless execution
+- model selection for the job, including optional non-Anthropic routing
+- goal mode, debate mode, and context-window discipline
+
 Lab 00 is the pre-course onboarding and environment bootstrap lab.
 
 Day 1: Labs 01 and 02

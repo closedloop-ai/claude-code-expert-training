@@ -4,6 +4,8 @@
 
 Turn ambiguous work into a plan that is compact, reviewable, and ready for execution.
 
+The plan should survive context-window pressure: it must be short enough to reuse, specific enough to execute, and structured enough to hand off.
+
 ## Materials
 
 - [implementation-plan-example.md](implementation-plan-example.md)
@@ -30,15 +32,35 @@ Good execution briefs do four things:
 3. bound the work into reviewable phases
 4. define what “done” means before implementation starts
 
+## Context Window Management
+
+Strong planning is also context management. Use the following rules during the lab:
+
+- gather context in bounded slices instead of reading the whole repo
+- summarize findings into artifacts instead of carrying forward full transcripts
+- keep open questions explicit so unresolved issues do not pollute later prompts
+- compact long investigation output into short reusable notes
+- pass artifacts, not raw exploration history, into later execution and review steps
+
+If the plan cannot fit into a compact execution brief, it is not ready.
+
+## Planning Modes
+
+Lab 02 should also make explicit use of operating modes from Lab 01:
+
+- use goal mode when the work needs to remain anchored to a stable objective while context is gathered
+- use debate mode when the draft plan needs structured criticism before implementation starts
+
 ## Steps
 
 1. Assess intake quality.
-2. Explore codebase context without editing.
-3. Build an open-question register.
-4. Draft an implementation plan.
-5. Disaggregate work into executable packages.
-6. Run peer or debate review.
-7. Create a Day 05 execution brief.
+2. Explore codebase context without editing and keep the search bounded.
+3. Build a context map that identifies which findings should survive into the execution brief.
+4. Build an open-question register.
+5. Draft an implementation plan.
+6. Disaggregate work into executable packages.
+7. Run peer or debate review.
+8. Compact the plan into a Day 05 execution brief.
 
 ## Required Artifacts
 
@@ -49,6 +71,7 @@ Produce the following as separate sections or separate files:
 - open-question register
 - implementation plan
 - execution brief
+- short context-budget note explaining what information was intentionally excluded
 
 ## Worked Example
 
@@ -67,7 +90,8 @@ Before proposing code:
 2. summarize current behavior,
 3. list open questions,
 4. propose bounded work packages,
-5. define a verification plan.
+5. define a verification plan,
+6. keep the final plan compact enough to hand off without the full exploration transcript.
 
 Do not implement yet.
 ```
@@ -83,6 +107,7 @@ Your execution brief should have, at minimum:
 - phased work packages
 - required tests
 - stop conditions
+- context notes that are short enough to reuse in later prompts
 
 ## Deliverables
 
@@ -91,6 +116,7 @@ Your execution brief should have, at minimum:
 - open questions register
 - implementation plan
 - execution brief
+- context-budget note
 
 ## Reused Later
 
@@ -104,8 +130,9 @@ This lab passes when:
 - non-goals are explicit
 - open questions are separated from assumptions
 - work packages are bounded enough to be reviewed phase by phase
+- the execution brief is compact enough to fit within a constrained context window
 - the execution brief is good enough for someone else to implement
 
 ## Suggested Reflection
 
-Write one paragraph explaining which part of planning you are most likely to skip under deadline pressure, and what problem that would create later in the workflow.
+Write one paragraph explaining which part of planning or context management you are most likely to skip under deadline pressure, and what problem that would create later in the workflow.
