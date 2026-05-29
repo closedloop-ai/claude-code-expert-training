@@ -1,6 +1,8 @@
-# Labs Index
+# Course Labs
 
-Use the labs in this order:
+This directory contains the numbered lab sequence for the ClosedLoop.AI Claude Code Expert Training course.
+
+## Lab Sequence
 
 1. `00-setup-onboarding`
 2. `01-primitives`
@@ -11,4 +13,13 @@ Use the labs in this order:
 7. `06-workflow-integration`
 8. `07-operating`
 
-Older `day*` folders remain as source material from the first draft of the course, but the numbered labs are now the primary curriculum path.
+## How to Use the Labs
+
+The labs are designed to be completed in order. Each lab establishes concepts, artifacts, or operating constraints used by the labs that follow.
+
+- Lab 00 establishes the working environment.
+- Labs 01 through 04 establish investigation and planning discipline.
+- Lab 05 focuses on implementation and verification.
+- Labs 06 and 07 focus on integrating the tool into real engineering workflows and team operating practices.
+
+Legacy `day*` folders remain in the repository as earlier draft material, but the numbered sequence is the authoritative course path.
