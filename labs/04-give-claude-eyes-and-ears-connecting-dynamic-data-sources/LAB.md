@@ -4,6 +4,10 @@
 
 Improve Claude's next answer by connecting it to the right dynamic data sources and feedback artifacts.
 
+## Why This Lab Exists
+
+Static prompts are rarely enough once work becomes interactive. This lab teaches participants to connect Claude to the runtime evidence that changes the quality of its reasoning.
+
 ## Scenario
 
 Claude produced a partial fix, but the result is still wrong. Your task is to avoid vague feedback like “that didn't work” and instead supply concrete evidence.
@@ -22,6 +26,16 @@ Use at least three of the following:
 - GitHub issue or PR discussion
 - diff excerpt showing the suspicious area
 - short written observation about what changed versus what was expected
+
+## Example Feedback Bundle
+
+An acceptable bundle might include:
+
+- one failing test run
+- one CLI trace showing the command that triggered the failure
+- one short explanation of expected versus observed behavior
+- one screenshot or simulator observation if the problem is visual
+- one link or MCP lookup for the relevant external contract or issue
 
 ## Exercises
 
@@ -48,3 +62,11 @@ Create a feedback bundle containing:
 - one observation
 - one revised instruction to Claude
 - one sentence explaining why this feedback is better than a generic correction
+
+## Pass Criteria
+
+This lab passes when the participant can show:
+
+- that the feedback uses concrete evidence
+- that at least one dynamic source is connected beyond the raw failure
+- that the revised instruction is more actionable than “fix this”

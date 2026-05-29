@@ -4,6 +4,12 @@
 
 Recover intent before editing code.
 
+## Materials
+
+- local Git history
+- any linked GitHub issue or PR
+- the execution brief from Lab 02
+
 ## Scenario
 
 A teammate says, “This pricing behavior looks wrong, but I think it changed for a reason.” Before touching the code, investigate what changed, why it changed, and what downstream behavior depends on it.
@@ -15,6 +21,16 @@ A teammate says, “This pricing behavior looks wrong, but I think it changed fo
 3. Inspect at least one historical diff and summarize its intent.
 4. Investigate the linked GitHub issue or PR discussion that motivated the change.
 5. Write down what is confirmed, what is inferred, and what is still unknown.
+
+## Example Commands
+
+```bash
+git log -- examples/demo-app/src/order_totals.py
+git blame examples/demo-app/src/order_totals.py
+git show <commit>
+```
+
+If GitHub context exists for the work item, capture the relevant issue or PR links as part of the memo.
 
 ## Teaching Focus
 
@@ -35,3 +51,11 @@ Produce an investigation memo with:
 ## Reused Later
 
 The investigation memo becomes a required handoff artifact in Lab 06 for any workflow that claims to recover intent before editing.
+
+## Pass Criteria
+
+This lab passes when the memo:
+
+- distinguishes evidence from inference
+- identifies at least one concrete historical artifact
+- explains how the historical intent affects the current plan

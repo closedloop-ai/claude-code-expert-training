@@ -70,6 +70,10 @@ Participants produce an operating system specification with:
 - continuous improvement loop
 - next-run checklist
 
+## Supporting Material
+
+Use [post-run-review-template.md](post-run-review-template.md) as the base template for the post-run review section.
+
 ## Exercises
 
 1. Define at least five success metrics for the Lab 06 workflow.
@@ -104,3 +108,7 @@ A Lab 07 artifact passes if:
 - it defines a next-run checklist
 - it explains how the workflow improves over time
 - it makes quality, speed, and reuse observable
+
+## Self-Study Note
+
+If this lab is being completed independently, treat the output as the course capstone. The document should be usable by a future participant or teammate as a real operating guide for running the Lab 06 workflow again.

@@ -44,6 +44,10 @@ Participants produce a named multi-agent workflow specification with the followi
 - failure modes
 - reuse opportunities
 
+## Output File
+
+Create a single workflow spec document that another team member could run without additional explanation.
+
 ## Required Workflow Phases
 
 Every Lab 06 workflow must include:
@@ -172,3 +176,7 @@ A Lab 06 workflow passes if:
 - it defines handoffs
 - it produces PR-ready output
 - it identifies reuse opportunities
+
+## Self-Study Note
+
+If you are taking this course without an instructor, do not skip the artifact collection from Labs 02 through 05. Lab 06 only works when the earlier artifacts are treated as real workflow inputs instead of hypothetical placeholders.

@@ -133,4 +133,4 @@ python -m pytest
 python src/order_totals.py
 ```
 
-The initial lab is [labs/00-setup-onboarding/LAB.md](labs/00-setup-onboarding/LAB.md).
+The initial lab is [labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md).
