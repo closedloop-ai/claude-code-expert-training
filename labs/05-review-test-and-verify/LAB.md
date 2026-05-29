@@ -28,6 +28,31 @@ python -m pytest
 python src/order_totals.py
 ```
 
+## Example Review Prompt
+
+```text
+Review this change as if you are the strictest reviewer on the team.
+
+Focus on:
+1. scope drift,
+2. behavioral regressions,
+3. missing tests,
+4. unnecessary complexity,
+5. mismatch with the execution brief.
+
+Return findings first, ordered by severity.
+```
+
+## Example PR Handoff Structure
+
+Use this outline:
+
+- summary of what changed
+- files touched
+- tests run
+- risks or open questions
+- follow-up work
+
 ## Review Questions
 
 Use these questions during the diff review:
@@ -62,3 +87,7 @@ This lab passes when:
 - verification commands were actually run
 - the evidence is recorded clearly enough for a reviewer to evaluate
 - the PR handoff explains risks, follow-ups, and what was verified
+
+## Suggested Reflection
+
+What issue would have escaped if you had only run tests and skipped a structured diff review?

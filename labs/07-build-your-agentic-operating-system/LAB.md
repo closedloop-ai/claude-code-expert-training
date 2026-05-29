@@ -73,6 +73,7 @@ Participants produce an operating system specification with:
 ## Supporting Material
 
 Use [post-run-review-template.md](post-run-review-template.md) as the base template for the post-run review section.
+Use [agentic-operating-system-template.md](agentic-operating-system-template.md) as the base structure for the full capstone artifact.
 
 ## Exercises
 
@@ -81,6 +82,19 @@ Use [post-run-review-template.md](post-run-review-template.md) as the base templ
 3. Run a post-run review and classify delivery, learning, verification, coordination, leverage, and waste.
 4. Improve one skill, one gate, one handoff rule, one stop condition, or one routing decision.
 5. Publish the next-run checklist.
+
+## Example Metrics
+
+Start with a set like:
+
+| Metric | Why it matters |
+| --- | --- |
+| plan approval rate | indicates planning quality |
+| phase completion time | reveals where flow slows down |
+| scope drift incidents | measures control and discipline |
+| verification pass rate | measures technical correctness |
+| review findings per run | measures output quality |
+| reusable artifact updates | measures compounding leverage |
 
 ## Next-Run Checklist Sections
 
@@ -112,3 +126,7 @@ A Lab 07 artifact passes if:
 ## Self-Study Note
 
 If this lab is being completed independently, treat the output as the course capstone. The document should be usable by a future participant or teammate as a real operating guide for running the Lab 06 workflow again.
+
+## Suggested Reflection
+
+What one metric, if it stayed flat for six weeks, would most strongly tell you the workflow is not actually improving?

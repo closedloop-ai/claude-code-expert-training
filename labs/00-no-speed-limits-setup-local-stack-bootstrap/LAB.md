@@ -11,6 +11,7 @@ Get every participant to a known-good starting point before they try to use Clau
 - a shell you are comfortable using
 - an editor or IDE
 - this repository cloned locally
+- [operating-rules-template.md](operating-rules-template.md)
 
 ## Why This Matters
 
@@ -60,6 +61,33 @@ Complete the following before moving on:
 4. Open `examples/demo-app/src/order_totals.py`.
 5. Explain what would count as a safe first prompt to Claude if no edits are allowed yet.
 
+## Example First Prompt
+
+Use a bounded prompt like this:
+
+```text
+Inspect this repository and explain:
+1. what the demo app appears to do,
+2. which file contains the main pricing logic,
+3. which tests cover that logic,
+4. what commands I should run before proposing any changes.
+
+Do not edit files. Do not guess beyond the files you inspect.
+```
+
+## Baseline Operating Rules
+
+Before leaving this lab, define a short operating policy for the rest of the course.
+
+Recommended baseline:
+
+- investigate before editing
+- prefer small phases over one-shot rewrites
+- run verification before claiming completion
+- treat test output and CLI output as evidence
+- stop on blocking questions instead of inventing requirements
+- request approval for destructive or high-risk actions
+
 ## Warm-Up Exercises
 
 1. Use the terminal to list the repo layout.
@@ -80,7 +108,7 @@ Complete the following before moving on:
 - completed setup checklist
 - baseline test output
 - a one-paragraph repo warm-up routine
-- a short baseline operating-rules note for Labs 01 through 07
+- a short baseline operating-rules note for Labs 01 through 07 using [operating-rules-template.md](operating-rules-template.md)
 
 ## Pass Criteria
 
@@ -90,3 +118,10 @@ This lab passes when the participant can:
 - describe the structure of the repo
 - explain how they would investigate before editing
 - state the basic permissions and approval posture they want for the rest of the course
+
+## Suggested Reflection
+
+Write two sentences:
+
+1. What setup problem would have slowed you down later if you had skipped this lab?
+2. What local command or repo fact now feels like “ground truth” for the rest of the course?

@@ -48,6 +48,10 @@ Participants produce a named multi-agent workflow specification with the followi
 
 Create a single workflow spec document that another team member could run without additional explanation.
 
+## Example Capstone Workflow
+
+Use [safe-feature-slice-delivery-example.md](safe-feature-slice-delivery-example.md) as a reference. It demonstrates one acceptable way to combine planning, investigation, dynamic data, implementation, review, testing, and PR handoff into a named workflow.
+
 ## Required Workflow Phases
 
 Every Lab 06 workflow must include:
@@ -161,6 +165,20 @@ Begin with Phase 1: Intake.
 5. Define at least three gates: plan review, scope drift, and verification.
 6. Produce the final Orchestrator Agent execution prompt.
 
+## Recommended Agent Set for Self-Study
+
+If you do not have a real team workflow to model yet, start with:
+
+- Orchestrator Agent
+- Context Scout
+- Commit Archaeologist
+- Plan Critic
+- Implementation Agent
+- Diff Prosecutor
+- Test Strategist
+- Verification Runner
+- PR Narrator
+
 ## Pass Criteria
 
 A Lab 06 workflow passes if:
@@ -180,3 +198,7 @@ A Lab 06 workflow passes if:
 ## Self-Study Note
 
 If you are taking this course without an instructor, do not skip the artifact collection from Labs 02 through 05. Lab 06 only works when the earlier artifacts are treated as real workflow inputs instead of hypothetical placeholders.
+
+## Suggested Reflection
+
+Which agent in your workflow is most likely to become a reusable organizational asset, and what would it need to become stable enough for reuse?

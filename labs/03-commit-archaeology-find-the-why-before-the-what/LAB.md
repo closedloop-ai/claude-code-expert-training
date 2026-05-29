@@ -9,6 +9,7 @@ Recover intent before editing code.
 - local Git history
 - any linked GitHub issue or PR
 - the execution brief from Lab 02
+- [investigation-memo-template.md](investigation-memo-template.md)
 
 ## Scenario
 
@@ -32,6 +33,26 @@ git show <commit>
 
 If GitHub context exists for the work item, capture the relevant issue or PR links as part of the memo.
 
+## Example Investigation Prompt
+
+```text
+Investigate why this pricing logic currently behaves the way it does.
+
+Use:
+- git log
+- git blame
+- at least one historical diff
+- any linked issue or PR context
+
+Return:
+1. confirmed evidence,
+2. likely intent,
+3. risks of changing the behavior,
+4. one unresolved question.
+
+Do not edit code.
+```
+
 ## Teaching Focus
 
 - do not edit until the investigation is coherent
@@ -48,6 +69,8 @@ Produce an investigation memo with:
 - one unresolved question
 - your recommendation on whether to preserve, revert, or revise the behavior
 
+Use [investigation-memo-template.md](investigation-memo-template.md) if you want a starting structure.
+
 ## Reused Later
 
 The investigation memo becomes a required handoff artifact in Lab 06 for any workflow that claims to recover intent before editing.
@@ -59,3 +82,7 @@ This lab passes when the memo:
 - distinguishes evidence from inference
 - identifies at least one concrete historical artifact
 - explains how the historical intent affects the current plan
+
+## Suggested Reflection
+
+What did the history tell you that a read of the current file alone would have missed?

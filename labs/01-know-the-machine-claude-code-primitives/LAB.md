@@ -29,6 +29,19 @@ Use this short decision frame during the lab:
 | MCP server | Claude needs structured access to an external system or dataset |
 | Workflow | the work has phases, gates, handoffs, or approvals |
 
+## Example Classification
+
+Use the table below as a worked example.
+
+| Situation | Best primitive | Why |
+| --- | --- | --- |
+| Explain what a single file does | Prompt | one-off interpretation with no reuse requirement |
+| Run a test command and inspect output | Tool or command | requires concrete execution and evidence |
+| Convert tickets into plans repeatedly | Skill | repeatable method with stable output structure |
+| Investigate Git history and PR context | Agent | focused mission with a clear output memo |
+| Pull documentation from an external system | MCP server | structured external context is required |
+| Coordinate planning, implementation, review, and testing | Workflow | multiple phases, handoffs, and gates |
+
 ## Steps
 
 1. Identify the goal.
@@ -42,6 +55,25 @@ Use this short decision frame during the lab:
 
 Complete [primitive-design-worksheet.md](primitive-design-worksheet.md) or adapt it into a cleaner team-ready version.
 
+## Example Prompt
+
+```text
+We repeatedly receive small bugfix tickets with unclear reproduction steps.
+
+Help me choose the right Claude Code primitive for:
+1. intake clarification,
+2. repo context gathering,
+3. Git history investigation,
+4. implementation planning,
+5. review and verification.
+
+For each step, state:
+- chosen primitive
+- why it fits
+- output artifact
+- stop condition
+```
+
 ## Why It Matters for Later Labs
 
 The primitive choices made here are reused in Lab 06 when participants explicitly define which parts of a multi-agent workflow should be handled by prompts, tools, skills, agents, hooks, MCP servers, or orchestration logic.
@@ -54,3 +86,7 @@ This lab passes when the participant can explain:
 - what the primitive should accept as input
 - what artifact it should return
 - when the primitive should stop and ask for human help
+
+## Suggested Reflection
+
+Name one task you previously handled with a vague prompt that should really become a skill, agent, or workflow.

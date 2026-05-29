@@ -37,6 +37,21 @@ An acceptable bundle might include:
 - one screenshot or simulator observation if the problem is visual
 - one link or MCP lookup for the relevant external contract or issue
 
+## Example Revised Instruction
+
+```text
+The previous change still fails.
+
+Evidence:
+- failing test: `test_discount_unknown_code`
+- CLI output: ValueError is not raised
+- docs note: unknown discount codes must fail closed
+
+Revise the implementation so unknown codes raise a clear error.
+Do not change unrelated tax behavior.
+Explain which file changed and why.
+```
+
 ## Exercises
 
 1. Run the failing command or test.
@@ -63,6 +78,8 @@ Create a feedback bundle containing:
 - one revised instruction to Claude
 - one sentence explaining why this feedback is better than a generic correction
 
+Use [feedback-bundle-example.md](feedback-bundle-example.md) as a model for the final submission.
+
 ## Pass Criteria
 
 This lab passes when the participant can show:
@@ -70,3 +87,7 @@ This lab passes when the participant can show:
 - that the feedback uses concrete evidence
 - that at least one dynamic source is connected beyond the raw failure
 - that the revised instruction is more actionable than “fix this”
+
+## Suggested Reflection
+
+Which dynamic source added the most decision-making value, and why?
