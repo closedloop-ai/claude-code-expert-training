@@ -88,6 +88,7 @@ Primary course entry points:
 - [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
+- [slides/README.md](slides/README.md)
 - [slides/day-01-foundations-and-work-intake.md](slides/day-01-foundations-and-work-intake.md)
 - [docs/TOOL-PERMISSIONS-EXAMPLES.md](docs/TOOL-PERMISSIONS-EXAMPLES.md)
 - [docs/WORKFLOW-INTEGRATION.md](docs/WORKFLOW-INTEGRATION.md)

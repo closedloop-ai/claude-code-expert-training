@@ -160,3 +160,7 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 - Day 2: demo the investigation memo and connected data sources
 - Day 3: demo the review packet and multi-agent workflow
 - Day 4: demo the operating system specification and improvement loop
+
+## Presentation Guides
+
+Use the day-specific presentation guides in [../slides/README.md](../slides/README.md) for instructor-facing block timing, slide sequencing, demos, and teaching prompts.
