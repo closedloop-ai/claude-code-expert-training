@@ -8,10 +8,17 @@ This program teaches teams to architect work for Claude Code: context, tools, sk
 
 # Four-day structure
 
-1. DNA of Claude Code
-2. From work to implementation plan
-3. Code review, testing, and verification
-4. Operating at expert speed
+1. Foundations and work intake
+2. Intent recovery and dynamic context
+3. Review discipline and workflow design
+4. Operating system and continuous improvement
+
+Lab 00 is the pre-course onboarding and environment bootstrap lab.
+
+Day 1: Labs 01 and 02
+Day 2: Labs 03 and 04
+Day 3: Labs 05 and 06
+Day 4: Lab 07
 
 ---
 

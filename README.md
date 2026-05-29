@@ -6,14 +6,16 @@ This repository is designed for instructor-led delivery, guided self-study, and 
 
 ## Learn More
 
-For course planning and internal delivery, begin with the formal syllabus and lab sequence.
+For course planning and internal delivery, begin with the live training agenda, formal syllabus, and lab guide.
 
+- [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
 
 ## Index
 
-- Course Scope
+- Course Format
+- Live Training Agenda
 - Course Outcomes
 - Course Components
 - Minimal Qualified Student
@@ -21,26 +23,33 @@ For course planning and internal delivery, begin with the formal syllabus and la
 - Before You Attend
 - Installing the Course Material
 
-## Course Scope
+## Course Format
 
-The course is organized as a sequence of numbered labs.
+This course is delivered as a four-day live program with five instructional hours per day. Each day combines:
 
-1. **Lab 00: No Speed Limits Setup & Local Stack Bootstrap**  
-   Install, configure, warm up the repository, and establish baseline operating rules.
-2. **Lab 01: Know the Machine: Claude Code Primitives**  
-   Understand prompts, tools, skills, agents, subagents, hooks, MCP, workflows, and when to use each.
-3. **Lab 02: From Mess to Mission: Creating Plans for Execution.**  
-   Turn ambiguous work into plans, context maps, open-question registers, and bounded work packages.
-4. **Lab 03: Commit Archaeology: Find the Why Before the What**  
-   Use Git history, blame, commits, issues, and PRs to recover intent before editing.
-5. **Lab 04: Give Claude Eyes & Ears: Connecting Dynamic Data Sources**  
-   Connect Claude to live context: logs, tests, screenshots, CLI traces, simulators, MCP, APIs, docs, and issue systems.
-6. **Lab 05: Review, Test, & Verify**  
-   Review generated diffs adversarially, add tests, run checks, and produce PR-ready evidence.
-7. **Lab 06: Agent Orchestra: Design a Multi-Agent Delivery Workflow**  
-   Capstone workflow design using custom agents, skills, MCP data, tools, planning, review, testing, and verification.
-8. **Lab 07: Build Your Agentic Operating System**  
-   Add observability, feedback loops, usage review, metrics, and continuous improvement so the workflow improves over time.
+- lecture and lesson framing
+- instructor walkthroughs
+- hands-on lab work
+- group or individual demos of lab results
+
+The labs are a major part of the course, but they are not the entire course structure. The live agenda is organized by instructional day, and the labs are the applied work blocks inside that agenda.
+
+Lab 00 is the onboarding and environment bootstrap lab. It should be completed before Day 1 or used at the start of the first session if the cohort needs extra setup time.
+
+## Live Training Agenda
+
+The live course uses seven primary labs across four days:
+
+1. **Day 1**
+   Labs 01 and 02
+2. **Day 2**
+   Labs 03 and 04
+3. **Day 3**
+   Labs 05 and 06
+4. **Day 4**
+   Lab 07
+
+See [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md) for the day-by-day pacing model, teaching blocks, demos, and expected outputs.
 
 ## Course Outcomes
 
@@ -70,6 +79,7 @@ By the end of the course, participants should be able to:
 
 Primary course entry points:
 
+- [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
 - [docs/TOOL-PERMISSIONS-EXAMPLES.md](docs/TOOL-PERMISSIONS-EXAMPLES.md)
@@ -94,6 +104,7 @@ Students will get the most from the course if they:
 
 Participants should review the following before or during the course:
 
+- [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [docs/WORKFLOW-INTEGRATION.md](docs/WORKFLOW-INTEGRATION.md)
 - [docs/TOOL-PERMISSIONS-EXAMPLES.md](docs/TOOL-PERMISSIONS-EXAMPLES.md)
@@ -105,6 +116,8 @@ The following preparation is recommended before the first live session or before
 
 ### Preparation
 
+- complete or review Lab 00
+- read the live training agenda
 - read the syllabus
 - review the lab sequence
 - confirm Python and Git are installed

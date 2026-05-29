@@ -2,11 +2,16 @@
 
 ## Format
 
-The course is structured as a sequence of numbered labs. Each lab has a single operating objective, a realistic scenario, explicit deliverables, and handoff points to the next lab.
+The course is a four-day live program with five instructional hours per day. Each day combines lecture, instructor walkthrough, self-guided lab work, and group or individual demos. The labs are major course components, but they support the live delivery plan rather than replacing it.
+
+Use [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md) for the day-by-day schedule. Use this syllabus to understand what each lab contributes to the larger course.
 
 ## Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
 
 Participants install prerequisites, configure terminal ergonomics, review IDE and terminal usage patterns, run the demo repo, and build a shared vocabulary around permissions, safety, and warm-up habits.
+
+Delivery note:
+- complete before Day 1 when possible, or use as the opening setup block if the cohort requires live onboarding
 
 Topics:
 - installation checklist
@@ -121,9 +126,19 @@ Topics:
 Primary artifact:
 - agentic operating system specification
 
+## Live Delivery Mapping
+
+- Day 1: Labs 01 and 02
+- Day 2: Labs 03 and 04
+- Day 3: Labs 05 and 06
+- Day 4: Lab 07
+
+Lab 00 is the onboarding lab and should be completed before the main sequence whenever possible.
+
 ## Cross-Course Instructor Material
 
-- [docs/TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
-- [docs/WORKFLOW-INTEGRATION.md](WORKFLOW-INTEGRATION.md)
-- [docs/TRANSCRIPT-CHEAT-SHEET.md](TRANSCRIPT-CHEAT-SHEET.md)
-- [docs/TRANSCRIPT-ALIGNMENT-APPENDIX.md](TRANSCRIPT-ALIGNMENT-APPENDIX.md)
+- [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md)
+- [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
+- [WORKFLOW-INTEGRATION.md](WORKFLOW-INTEGRATION.md)
+- [TRANSCRIPT-CHEAT-SHEET.md](TRANSCRIPT-CHEAT-SHEET.md)
+- [TRANSCRIPT-ALIGNMENT-APPENDIX.md](TRANSCRIPT-ALIGNMENT-APPENDIX.md)
