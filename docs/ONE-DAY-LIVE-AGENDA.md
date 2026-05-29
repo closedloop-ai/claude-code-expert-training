@@ -29,6 +29,7 @@ Required pre-work outcomes:
 Required pre-work files:
 
 - [../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
+- [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md)
 - [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
 
 ## Delivery Model
@@ -148,11 +149,13 @@ Instead, it asks participants to leave with:
 - keep the share-and-tell pattern at the start of each block
 - use the demo artifacts and anti-patterns for fast critique cycles
 - prefer one strong artifact per block over broad but shallow coverage
+- use [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md) as the readiness gate before the session starts
 
 ## Supporting Material
 
 - [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md)
 - [SYLLABUS.md](SYLLABUS.md)
+- [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md)
 - [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [../slides/one-day-intensive.md](../slides/one-day-intensive.md)
 - [../slides/demo-artifacts/README.md](../slides/demo-artifacts/README.md)

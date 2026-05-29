@@ -19,6 +19,7 @@ Lab 00 setup is required pre-work and is not taught live except for a brief read
 Before the session begins, confirm participants have completed:
 
 - [../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
+- [../docs/ONE-DAY-PREWORK-CHECKLIST.md](../docs/ONE-DAY-PREWORK-CHECKLIST.md)
 - demo-app warm-up commands
 - local editor and terminal setup
 

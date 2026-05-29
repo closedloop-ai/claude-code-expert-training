@@ -101,6 +101,7 @@ Primary course entry points:
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
 - [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md)
+- [docs/ONE-DAY-PREWORK-CHECKLIST.md](docs/ONE-DAY-PREWORK-CHECKLIST.md)
 - [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
