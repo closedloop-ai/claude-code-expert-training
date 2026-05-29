@@ -2,7 +2,7 @@
 
 A customer-facing, hands-on training repo for becoming effective with Claude Code in the way strong delivery teams actually use it: from environment setup and repo warm-up to planning, implementation, review, verification, workflow integration, and operating improvement.
 
-This curriculum is now organized in an Arden-style numbered lab sequence so participants can move through the material in order and instructors can insert stop-gaps or shorten sections without losing the narrative.
+This curriculum is now organized in an numbered lab sequence so participants can move through the material in order and instructors can insert stop-gaps or shorten sections without losing the narrative.
 
 ## Curriculum arc
 
