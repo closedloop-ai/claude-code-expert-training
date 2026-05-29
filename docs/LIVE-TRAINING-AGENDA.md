@@ -12,6 +12,29 @@ This course is designed as a four-day live training program with five instructio
 
 The labs are a major component of the course, but the agenda is driven by live instruction and guided application rather than by lab sequence alone.
 
+## Concept Introduction Pattern
+
+Each major concept should begin with a short cohort knowledge exchange before the formal lesson.
+
+Recommended prompt:
+
+`Has anyone tried this? What is working?`
+
+Why this matters:
+
+- in a large cohort, many participants will already know at least one technique, workflow, or failure mode
+- no individual participant is expected to know everything
+- the room often already contains useful working knowledge that should be surfaced before the instructor moves into structured teaching
+
+Recommended facilitation sequence:
+
+1. ask for prior attempts, working patterns, and failure cases
+2. collect a few concrete examples from the room
+3. normalize that partial familiarity is expected
+4. transition into the formal lesson with a clearer sense of what the cohort already knows
+
+This pattern should be used at the start of new topic blocks on primitives, planning, Git investigation, dynamic data sources, review, orchestration, and observability.
+
 ## Pre-Course Work
 
 ### Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
@@ -37,6 +60,8 @@ Each live day uses five instructional hours. A standard pacing model is:
 - 30 minutes: demo, synthesis, and next-step handoff
 
 Instructors can adjust the block lengths, but every day should preserve all four modes: lesson, walkthrough, lab, and demonstration.
+
+Within the lesson block, reserve the opening minutes for the concept introduction pattern so participants can contribute working knowledge before the instructor formalizes the material.
 
 ## Day 1 — Foundations and Work Intake
 
@@ -120,6 +145,7 @@ Instructors can adjust the block lengths, but every day should preserve all four
 
 - Treat Labs 01 through 07 as applied components inside a broader teaching day.
 - Use Lab 00 to absorb setup friction before the main agenda starts.
+- Start each new concept with the cohort question: `Has anyone tried this? What is working?`
 - Require demos at the end of every day so participants practice explaining evidence, decisions, and outputs.
 - Preserve artifact handoffs across days. Day 2 should reuse Day 1 planning artifacts. Day 3 should reuse Day 2 evidence. Day 4 should evaluate the workflow created on Day 3.
 

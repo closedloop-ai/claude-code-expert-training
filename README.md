@@ -27,12 +27,15 @@ For course planning and internal delivery, begin with the live training agenda, 
 
 This course is delivered as a four-day live program with five instructional hours per day. Each day combines:
 
+- participant share-and-tell on the next concept
 - lecture and lesson framing
 - instructor walkthroughs
 - hands-on lab work
 - group or individual demos of lab results
 
 The labs are a major part of the course, but they are not the entire course structure. The live agenda is organized by instructional day, and the labs are the applied work blocks inside that agenda.
+
+The course design assumes the cohort already has partial distributed knowledge. The instructor should pull that knowledge into the room at the start of each new concept with a simple prompt such as `Has anyone tried this? What is working?`
 
 Lab 00 is the onboarding and environment bootstrap lab. It should be completed before Day 1 or used at the start of the first session if the cohort needs extra setup time.
 

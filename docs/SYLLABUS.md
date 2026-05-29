@@ -4,6 +4,8 @@
 
 The course is a four-day live program with five instructional hours per day. Each day combines lecture, instructor walkthrough, self-guided lab work, and group or individual demos. The labs are major course components, but they support the live delivery plan rather than replacing it.
 
+The live teaching model assumes the cohort already contains useful partial knowledge. Each new concept should begin with a short share-and-tell prompt so participants can surface what they have already tried and what appears to be working before the instructor moves into the formal lesson.
+
 Use [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md) for the day-by-day schedule. Use this syllabus to understand what each lab contributes to the larger course.
 
 ## Lab 00 — No Speed Limits Setup & Local Stack Bootstrap

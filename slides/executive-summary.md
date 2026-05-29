@@ -4,6 +4,9 @@
 
 This program teaches teams to architect work for Claude Code: context, tools, skills, agents, subagents, workflows, planning, review, testing, and continuous improvement.
 
+Each new concept starts with a cohort share-out:
+"Has anyone tried this? What is working?"
+
 ---
 
 # Four-day structure
