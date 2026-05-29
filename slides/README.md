@@ -29,6 +29,7 @@ Each file includes:
 - supporting course files
 
 The `demo-artifacts/` directory contains ready-made examples instructors can open directly during class.
+It also includes anti-pattern artifacts for critique prompts and before/after comparison.
 
 ## Delivery Notes
 

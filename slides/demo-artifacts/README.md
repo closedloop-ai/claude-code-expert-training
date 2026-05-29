@@ -11,6 +11,7 @@ Use these files during lecture, walkthroughs, and demos when you want concrete e
 - [day-02-feedback-bundle-example.md](day-02-feedback-bundle-example.md)
 - [day-03-review-and-verification-packet.md](day-03-review-and-verification-packet.md)
 - [day-04-operating-system-scorecard.md](day-04-operating-system-scorecard.md)
+- [anti-patterns/README.md](anti-patterns/README.md)
 
 ## How to Use These Files
 
@@ -18,3 +19,5 @@ Use these files during lecture, walkthroughs, and demos when you want concrete e
 - use them as “good artifact” examples
 - compare them against weaker participant artifacts
 - annotate them live to show what is strong, missing, or risky
+
+For critique exercises, use the anti-pattern set in [anti-patterns/README.md](anti-patterns/README.md).
