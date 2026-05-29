@@ -75,7 +75,7 @@ Topics:
 Primary artifact:
 - connected dynamic-context plan and feedback bundle
 
-## Lab 05 — Diff Court: Review, Test, Prove
+## Lab 05 — Review, Test, & Verify
 
 Participants use the plan and investigation work to implement in controlled phases, inspect diffs, run adversarial review, create a test strategy, add tests, fix failures, and produce PR-ready evidence.
 

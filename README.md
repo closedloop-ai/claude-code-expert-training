@@ -35,7 +35,7 @@ The course is organized as a sequence of numbered labs.
    Use Git history, blame, commits, issues, and PRs to recover intent before editing.
 5. **Lab 04: Give Claude Eyes & Ears: Connecting Dynamic Data Sources**  
    Connect Claude to live context: logs, tests, screenshots, CLI traces, simulators, MCP, APIs, docs, and issue systems.
-6. **Lab 05: Diff Court: Review, Test, Prove**  
+6. **Lab 05: Review, Test, & Verify**  
    Review generated diffs adversarially, add tests, run checks, and produce PR-ready evidence.
 7. **Lab 06: Agent Orchestra: Design a Multi-Agent Delivery Workflow**  
    Capstone workflow design using custom agents, skills, MCP data, tools, planning, review, testing, and verification.

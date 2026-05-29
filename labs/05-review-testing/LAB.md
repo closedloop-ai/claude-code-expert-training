@@ -1,4 +1,4 @@
-# Lab 05 — Diff Court: Review, Test, Prove
+# Lab 05 — Review, Test, & Verify
 
 ## Objective
 

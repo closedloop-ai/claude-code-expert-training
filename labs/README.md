@@ -9,7 +9,7 @@ This directory contains the numbered lab sequence for the ClosedLoop.AI Claude C
 3. `02-planning` — From Mess to Mission: Creating Plans for Execution.
 4. `03-history-issues` — Commit Archaeology: Find the Why Before the What
 5. `04-feedback-tools` — Give Claude Eyes & Ears: Connecting Dynamic Data Sources
-6. `05-review-testing` — Diff Court: Review, Test, Prove
+6. `05-review-testing` — Review, Test, & Verify
 7. `06-workflow-integration` — Agent Orchestra: Design a Multi-Agent Delivery Workflow
 8. `07-operating` — Build Your Agentic Operating System
 
