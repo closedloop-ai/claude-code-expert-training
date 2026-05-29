@@ -168,6 +168,138 @@ Ask:
 
 - What should force the workflow to stop instead of continuing optimistically?
 
+## Speaker-Ready Slide Content
+
+### Slide 4 — Review the Diff Against the Plan
+
+Suggested slide body:
+
+- approved scope
+- actual scope
+- unexpected files touched
+- missing tests
+- unexplained complexity
+
+Suggested speaker notes:
+
+This slide should reset the idea of review. The reviewer is not reacting emotionally to the diff. The reviewer is comparing the diff against the contract established earlier in the workflow.
+
+### Slide 10 — Testing Is One Gate, Not the Only Gate
+
+Suggested slide body:
+
+- tests prove some things
+- review proves different things
+- historical intent still matters
+- evidence packet must be coherent
+
+Suggested speaker notes:
+
+Participants often over-trust green tests. This is where you explain that a workflow can still be unsafe if the diff drifted, the requirements changed, or the evidence packet is weak.
+
+### Slide 22 — Agent Roles in the Workflow
+
+Suggested slide body:
+
+- Orchestrator owns the run
+- Scout gathers bounded context
+- Critic attacks the plan
+- Implementer changes one phase at a time
+- Prosecutor reviews for drift
+- Verifier proves outcome
+
+Suggested speaker notes:
+
+Keep the descriptions operational. An agent is useful only if the team can tell when to invoke it, what it can use, and what artifact it must return.
+
+### Slide 23 — Handoffs as Artifact Contracts
+
+Suggested slide body:
+
+- pass compact artifacts
+- do not pass noisy transcript history
+- define success condition for the receiver
+- fail fast on weak handoffs
+
+Suggested speaker notes:
+
+This is one of the most important workflow-design slides in the course. Teams often design agents before they design handoffs. That usually produces chaos. The handoff contract is what keeps the workflow composable.
+
+### Slide 29 — Where Review and Verification Happen
+
+Suggested slide body:
+
+- review after implementation
+- verification before handoff
+- both can stop the workflow
+- evidence persists into PR handoff
+
+Suggested speaker notes:
+
+This is where participants should see that review and verification are not epilogues. They are gates with authority to stop progress.
+
+## Demo Script
+
+### Demo 1 — Scope Drift Trial
+
+Scenario:
+
+A seemingly correct patch touches an extra helper file and adds an unnecessary refactor.
+
+Steps:
+
+1. Put the execution brief on screen.
+2. Show the diff.
+3. Ask the room to identify:
+   - planned change
+   - unplanned change
+   - risky change
+4. Record findings in severity order.
+5. Decide whether the drift should be:
+   - removed
+   - split into a new work item
+   - explicitly re-approved
+
+Key teaching line:
+
+`A good diff can still be a bad delivery if it violates the brief.`
+
+### Demo 2 — Workflow Assembly
+
+Build a workflow live from the prior artifacts:
+
+1. list the artifacts from Labs 01 through 05
+2. assign a named agent to each major phase
+3. define one required handoff artifact per phase
+4. add three gates:
+   - plan review
+   - scope drift
+   - verification
+5. identify one stop condition where human approval is mandatory
+
+## Worked Artifact Example
+
+Use this in class as a sample handoff:
+
+```md
+## Handoff: Plan Critic -> Implementation Agent
+
+### Pass
+- approved execution brief
+- context map
+- open-question register with resolved and unresolved items marked
+
+### Do Not Pass
+- raw exploratory notes
+- unrelated repo findings
+
+### Required Artifact
+- implementation-ready work package list
+
+### Success Condition
+- Implementation Agent can start Phase 1 without reopening planning
+```
+
 ## Instructor Demo Ideas
 
 ### Demo 1 — Scope Drift Trial

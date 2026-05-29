@@ -161,6 +161,121 @@ Ask:
 
 - What evidence would justify rerouting this class of work?
 
+## Speaker-Ready Slide Content
+
+### Slide 4 — Success Dimensions
+
+Suggested slide body:
+
+- Delivery
+- Quality
+- Speed
+- Efficiency
+- Reuse
+
+Suggested speaker notes:
+
+This slide should make one point clearly: a workflow can look busy and still fail. If it ships slowly, creates review churn, burns context, and teaches nothing reusable, it is not working well.
+
+### Slide 9 — What to Capture Per Phase
+
+Suggested slide body:
+
+- phase start and stop
+- artifact produced
+- gate outcome
+- human intervention
+- unresolved blocker
+
+Suggested speaker notes:
+
+The goal is not surveillance. The goal is enough telemetry to explain why a run succeeded, stalled, or regressed.
+
+### Slide 14 — Post-Run Review Categories
+
+Suggested slide body:
+
+- delivery
+- learning
+- verification
+- coordination
+- leverage
+- waste
+
+Suggested speaker notes:
+
+This becomes the language of improvement. It helps teams discuss failures and gains without collapsing everything into vague sentiment.
+
+### Slide 21 — Add One Routing Change and One Gate Improvement
+
+Suggested slide body:
+
+- choose one high-leverage change
+- justify it with evidence
+- document what changes next run
+- keep the backlog small and real
+
+Suggested speaker notes:
+
+This is where the workflow starts to self-improve. Do not let participants leave with a huge wish list. Make them choose one change they can defend.
+
+### Slide 25 — When to Change Models or Execution Mode
+
+Suggested slide body:
+
+- slower than needed
+- weaker than needed
+- too expensive for the value
+- too interactive for a repeatable job
+- too headless for an ambiguous job
+
+Suggested speaker notes:
+
+Bring the course full circle here. Model and mode routing should change only when the evidence supports a better tradeoff.
+
+## Demo Script
+
+### Demo 1 — Turning a Workflow into an Operating System
+
+Scenario:
+
+The Day 3 workflow works once, but the team wants to know whether it will improve over repeated runs.
+
+Steps:
+
+1. Put the Lab 06 workflow on screen.
+2. Choose five metrics:
+   - one delivery metric
+   - one quality metric
+   - one speed metric
+   - one efficiency metric
+   - one reuse metric
+3. Add telemetry capture points for:
+   - phase
+   - agent
+   - gate
+4. Add one human approval checkpoint.
+5. Add one routing change backed by evidence.
+6. Produce a next-run checklist.
+
+Key teaching line:
+
+`A workflow becomes an operating system only when the next run gets smarter because of this run.`
+
+## Worked Artifact Example
+
+Use this in class as a sample metric table:
+
+```md
+| Metric | Why it matters | Action if weak |
+| --- | --- | --- |
+| plan approval rate | planning quality | tighten Plan Critic review |
+| scope drift incidents | delivery control | strengthen diff gate |
+| verification pass rate | technical correctness | improve test strategy |
+| human interventions per run | workflow stability | clarify stop conditions |
+| reusable asset updates | compounding leverage | promote successful patterns into skills |
+```
+
 ## Instructor Demo Ideas
 
 ### Demo 1 — Metric Triage

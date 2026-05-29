@@ -19,7 +19,9 @@ Each file includes:
 - session purpose
 - time blocks
 - slide sequence
+- speaker-ready slide content
 - instructor notes
+- demo scripts
 - teaching prompts
 - demo ideas
 - demo rubric
