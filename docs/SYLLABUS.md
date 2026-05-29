@@ -4,7 +4,7 @@
 
 The course is structured as a sequence of numbered labs. Each lab has a single operating objective, a realistic scenario, explicit deliverables, and handoff points to the next lab.
 
-## Lab 00 — Setup and Onboarding
+## Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
 
 Participants install prerequisites, configure terminal ergonomics, review IDE and terminal usage patterns, run the demo repo, and build a shared vocabulary around permissions, safety, and warm-up habits.
 
@@ -19,7 +19,7 @@ Topics:
 Primary artifact:
 - setup checklist and warm-up evidence
 
-## Lab 01 — Claude Code Primitives
+## Lab 01 — Know the Machine: Claude Code Primitives
 
 Participants learn the building blocks underneath Claude Code: context windows, transcripts, compaction, tools, skills, slash commands, hooks, MCP, agents, subagents, custom agents, background agents, workflows, goals, and orchestration.
 
@@ -32,7 +32,7 @@ Topics:
 Primary artifact:
 - primitive design worksheet
 
-## Lab 02 — Planning and Execution Briefs
+## Lab 02 — From Mess to Mission: Execution Briefs
 
 Participants take a piece of work and turn it into an execution-ready plan. Topics include intake assessment, bounded codebase Q&A, context maps, assumptions, open-question registers, work disaggregation, peer review, and execution briefs.
 
@@ -45,7 +45,7 @@ Topics:
 Primary artifact:
 - implementation plan and execution brief
 
-## Lab 03 — Git History and Issue Investigation
+## Lab 03 — Commit Archaeology: Find the Why Before the What
 
 Participants learn how to recover intent from existing systems before editing code.
 
@@ -59,21 +59,23 @@ Topics:
 Primary artifact:
 - investigation memo with evidence links and hypotheses
 
-## Lab 04 — Giving Claude Better Feedback Tools
+## Lab 04 — Give Claude Eyes & Ears: Connecting Dynamic Data Sources
 
-Participants improve model outcomes by providing better evidence rather than vaguer instructions.
+Participants improve model outcomes by connecting Claude to the dynamic data required to reason about real systems rather than relying on static prompt context alone.
 
 Topics:
-- using failing tests as feedback
-- using CLI output as feedback
-- using screenshots or simulator output as feedback
+- logs and traces
+- failing tests and test output
+- screenshots and simulator output
+- CLI output and shell state
+- MCP servers, APIs, and documentation sources
+- issue systems and PR discussions as live context
 - narrowing the problem with concrete observations
-- deciding when to stop and add better instrumentation
 
 Primary artifact:
-- feedback bundle for a broken change
+- connected dynamic-context plan and feedback bundle
 
-## Lab 05 — Review, Testing, and Verification
+## Lab 05 — Diff Court: Review, Test, Prove
 
 Participants use the plan and investigation work to implement in controlled phases, inspect diffs, run adversarial review, create a test strategy, add tests, fix failures, and produce PR-ready evidence.
 
@@ -86,33 +88,38 @@ Topics:
 Primary artifact:
 - code change, review notes, and verification packet
 
-## Lab 06 — Claude in Existing Workflows
+## Lab 06 — Agent Orchestra: Design a Multi-Agent Delivery Workflow
 
-Participants learn how to use Claude inside the workflows they already rely on instead of treating it as a separate environment.
+Participants bring together the outputs of Labs 00 through 05 and design a complete named multi-agent delivery workflow that can take a piece of work from intake through planning, implementation, review, testing, and PR handoff.
 
 Topics:
-- terminal-first operation
-- IDE-assisted review and debugging
-- `tmux` session management
-- SSH and remote-repo workflows
-- when to keep work local versus remote
+- orchestrator-first workflow design
+- named agents and responsibilities
+- skills, tools, and MCP/data-source selection
+- workflow phases and handoffs
+- verification gates and stop conditions
+- human approval checkpoints
+- reusable workflow design
 
 Primary artifact:
-- workflow playbook for the participant's preferred setup
+- named multi-agent workflow specification
 
-## Lab 07 — Operating at Expert Speed
+## Lab 07 — Build Your Agentic Operating System
 
-Participants review the full run, identify leverage and waste, improve reusable artifacts, and define how the team should keep compounding gains.
+Participants start where Lab 06 ends: now that the workflow runs, they define how it should be observed, reviewed, measured, and improved over time.
 
 Topics:
+- success metrics
+- workflow observability
 - post-run review
-- reusable gates and skills
-- permissions policy examples
-- workflow standardization
-- escalation rules
+- usage and quality review
+- gate review
+- routing changes
+- skill and agent improvement backlog
+- next-run checklist
 
 Primary artifact:
-- operating checklist and reusable artifact improvement plan
+- agentic operating system specification
 
 ## Cross-Course Instructor Material
 

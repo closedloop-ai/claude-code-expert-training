@@ -1,4 +1,4 @@
-# Lab 01 — Claude Code Primitives
+# Lab 01 — Know the Machine: Claude Code Primitives
 
 ## Objective
 
@@ -20,3 +20,7 @@ You have a repeated workflow: given a ticket, inspect the codebase, identify ope
 ## Deliverable
 
 Complete `../day1-dna/primitive-design-worksheet.md` or adapt it into a cleaner team-ready version.
+
+## Why It Matters for Later Labs
+
+The primitive choices made here are reused in Lab 06 when participants explicitly define which parts of a multi-agent workflow should be handled by prompts, tools, skills, agents, hooks, MCP servers, or orchestration logic.

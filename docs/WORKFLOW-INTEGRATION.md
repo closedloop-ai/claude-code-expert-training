@@ -74,5 +74,5 @@ Use your normal tools:
 - Lab 00: terminal, IDE, and repo warm-up
 - Lab 03: history and issue investigation
 - Lab 04: screenshots, tests, simulator output, CLI output as feedback
-- Lab 06: explicit workflow comparison and operating playbook
-- Lab 07: team-standard workflow design
+- Lab 06: multi-agent workflow design that must account for these working modes
+- Lab 07: operating-system design for sustaining the workflow over time

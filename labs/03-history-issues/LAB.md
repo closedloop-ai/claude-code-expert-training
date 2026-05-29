@@ -1,4 +1,4 @@
-# Lab 03 — Git History and Issue Investigation
+# Lab 03 — Commit Archaeology: Find the Why Before the What
 
 ## Objective
 
@@ -31,3 +31,7 @@ Produce an investigation memo with:
 - the likely intent of the change
 - one unresolved question
 - your recommendation on whether to preserve, revert, or revise the behavior
+
+## Reused Later
+
+The investigation memo becomes a required handoff artifact in Lab 06 for any workflow that claims to recover intent before editing.

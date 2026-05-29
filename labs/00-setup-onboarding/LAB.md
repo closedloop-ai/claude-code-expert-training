@@ -1,4 +1,4 @@
-# Lab 00 — Setup and Onboarding
+# Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
 
 ## Objective
 
@@ -17,6 +17,7 @@ By the end of this lab, participants can:
 - run the baseline demo commands
 - describe the current permissions posture
 - show a basic repo warm-up routine
+- explain the toolchain assumptions that later labs depend on
 
 ## Setup Checklist
 
@@ -47,3 +48,4 @@ By the end of this lab, participants can:
 - completed setup checklist
 - baseline test output
 - a one-paragraph repo warm-up routine
+- a short baseline operating-rules note for Labs 01 through 07

@@ -1,4 +1,4 @@
-# Lab 05 — Review, Testing, and Verification
+# Lab 05 — Diff Court: Review, Test, Prove
 
 ## Objective
 
@@ -21,3 +21,7 @@ Implement the plan, review the diff, add tests, and produce PR-ready evidence.
 - verification evidence
 - PR handoff
 - reusable verification gate candidate
+
+## Reused Later
+
+The review findings, verification evidence, and PR handoff become required workflow phases and output artifacts in Lab 06.

@@ -14,6 +14,7 @@ For course planning and internal delivery, begin with the formal syllabus and la
 ## Index
 
 - Course Scope
+- Course Outcomes
 - Course Components
 - Minimal Qualified Student
 - Important Reading
@@ -24,22 +25,36 @@ For course planning and internal delivery, begin with the formal syllabus and la
 
 The course is organized as a sequence of numbered labs.
 
-1. **Lab 00: Setup and Onboarding**  
-   Local setup, terminal and IDE use, permissions posture, and repository warm-up.
-2. **Lab 01: Claude Code Primitives**  
-   Selecting the correct primitive for the work.
-3. **Lab 02: Planning and Execution Briefs**  
-   Turning a request into a bounded, reviewable plan.
-4. **Lab 03: Git History and Issue Investigation**  
-   Recovering technical and product intent before editing code.
-5. **Lab 04: Giving Claude Better Feedback Tools**  
-   Using tests, screenshots, simulator traces, and CLI output as feedback artifacts.
-6. **Lab 05: Review, Testing, and Verification**  
-   Implementation, adversarial review, testing, and evidence collection.
-7. **Lab 06: Claude in Existing Workflows**  
-   Using Claude in terminal, IDE, `tmux`, and SSH-based workflows.
-8. **Lab 07: Operating at Expert Speed**  
-   Standardizing reusable prompts, workflows, permissions, and review habits.
+1. **Lab 00: No Speed Limits Setup & Local Stack Bootstrap**  
+   **No Speed Limits Setup & Local Stack Bootstrap**  
+   Install, configure, warm up the repository, and establish baseline operating rules.
+2. **Lab 01: Know the Machine: Claude Code Primitives**  
+   Understand prompts, tools, skills, agents, subagents, hooks, MCP, workflows, and when to use each.
+3. **Lab 02: From Mess to Mission: Execution Briefs**  
+   Turn ambiguous work into plans, context maps, open-question registers, and bounded work packages.
+4. **Lab 03: Commit Archaeology: Find the Why Before the What**  
+   Use Git history, blame, commits, issues, and PRs to recover intent before editing.
+5. **Lab 04: Give Claude Eyes & Ears: Connecting Dynamic Data Sources**  
+   Connect Claude to live context: logs, tests, screenshots, CLI traces, simulators, MCP, APIs, docs, and issue systems.
+6. **Lab 05: Diff Court: Review, Test, Prove**  
+   Review generated diffs adversarially, add tests, run checks, and produce PR-ready evidence.
+7. **Lab 06: Agent Orchestra: Design a Multi-Agent Delivery Workflow**  
+   Capstone workflow design using custom agents, skills, MCP data, tools, planning, review, testing, and verification.
+8. **Lab 07: Build Your Agentic Operating System**  
+   Add observability, feedback loops, usage review, metrics, and continuous improvement so the workflow improves over time.
+
+## Course Outcomes
+
+By the end of the course, participants should be able to:
+
+- establish a reliable local Claude Code environment and repo warm-up routine
+- select the correct primitive or abstraction for a given task
+- convert ambiguous work into an execution brief with explicit assumptions and boundaries
+- recover implementation intent from Git and GitHub artifacts before making changes
+- connect Claude to useful dynamic data sources instead of relying on static prompts alone
+- evaluate diffs, tests, and verification output with adversarial rigor
+- design a named multi-agent workflow that can run the same class of work repeatedly
+- observe, review, and improve that workflow over time with metrics and feedback loops
 
 ## Course Components
 
@@ -106,7 +121,7 @@ The course assumes a local shell environment that can:
 
 ### Editors and Terminal
 
-Participants may use any editor or IDE. The course includes guidance for terminal-first, IDE-first, `tmux`, and SSH-based workflows.
+Participants may use any editor or IDE. The course includes guidance for terminal-first, IDE-first, `tmux`, and SSH-based workflows, but those workflows are deliberately incorporated into the larger orchestration sequence rather than taught as an isolated side topic.
 
 ## Installing the Course Material
 

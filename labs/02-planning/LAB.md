@@ -1,4 +1,4 @@
-# Lab 02 — Planning and Execution Briefs
+# Lab 02 — From Mess to Mission: Execution Briefs
 
 ## Demo Ticket
 
@@ -28,3 +28,7 @@ Requirements:
 - open questions register
 - implementation plan
 - execution brief
+
+## Reused Later
+
+These artifacts are explicit inputs to Lab 06. Participants should keep them compact, reviewable, and handoff-ready.
