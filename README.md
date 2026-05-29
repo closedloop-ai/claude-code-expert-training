@@ -9,6 +9,7 @@ This repository is designed for instructor-led delivery, guided self-study, and 
 For course planning and internal delivery, begin with the live training agenda, formal syllabus, and lab guide.
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
+- [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
 
@@ -16,6 +17,7 @@ For course planning and internal delivery, begin with the live training agenda, 
 
 - Course Format
 - Live Training Agenda
+- One-Day Version
 - Course Outcomes
 - Course Components
 - Minimal Qualified Student
@@ -54,6 +56,19 @@ The live course uses seven primary labs across four days:
 
 See [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md) for the day-by-day pacing model, teaching blocks, demos, and expected outputs.
 
+## One-Day Version
+
+This repository also includes a condensed one-day intensive version of the course.
+
+The one-day format:
+
+- runs in five total instructional hours
+- requires Lab 00 setup as pre-work
+- consolidates Days 1 through 3 into one live flow
+- trims the more advanced Day 4 operating-system material down to a lightweight improvement loop
+
+Use [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md) and [slides/one-day-intensive.md](slides/one-day-intensive.md) for the compact delivery version.
+
 ## Course Outcomes
 
 By the end of the course, participants should be able to:
@@ -85,6 +100,7 @@ By the end of the course, participants should be able to:
 Primary course entry points:
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
+- [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md)
 - [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [labs/README.md](labs/README.md)
@@ -113,6 +129,7 @@ Students will get the most from the course if they:
 Participants should review the following before or during the course:
 
 - [docs/LIVE-TRAINING-AGENDA.md](docs/LIVE-TRAINING-AGENDA.md)
+- [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md)
 - [docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](docs/PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [docs/SYLLABUS.md](docs/SYLLABUS.md)
 - [docs/WORKFLOW-INTEGRATION.md](docs/WORKFLOW-INTEGRATION.md)
@@ -126,6 +143,7 @@ The following preparation is recommended before the first live session or before
 ### Preparation
 
 - complete or review Lab 00
+- if attending the one-day intensive, complete Lab 00 before the live session
 - read the live training agenda
 - read the syllabus
 - review the lab sequence

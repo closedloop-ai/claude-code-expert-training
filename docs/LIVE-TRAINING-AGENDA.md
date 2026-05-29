@@ -164,3 +164,5 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 ## Presentation Guides
 
 Use the day-specific presentation guides in [../slides/README.md](../slides/README.md) for instructor-facing block timing, slide sequencing, demos, and teaching prompts.
+
+For the condensed version, use [ONE-DAY-LIVE-AGENDA.md](ONE-DAY-LIVE-AGENDA.md) and [../slides/one-day-intensive.md](../slides/one-day-intensive.md).

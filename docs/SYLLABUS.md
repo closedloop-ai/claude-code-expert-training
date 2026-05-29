@@ -8,6 +8,8 @@ The live teaching model assumes the cohort already contains useful partial knowl
 
 Use [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md) for the day-by-day schedule. Use this syllabus to understand what each lab contributes to the larger course.
 
+For the condensed five-hour delivery model, use [ONE-DAY-LIVE-AGENDA.md](ONE-DAY-LIVE-AGENDA.md).
+
 For Day 1 teaching details on marketplace usage, plugins versus skills versus commands, and model selection, use [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md).
 
 ## Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
@@ -146,9 +148,20 @@ Primary artifact:
 
 Lab 00 is the onboarding lab and should be completed before the main sequence whenever possible.
 
+## Condensed Delivery Mapping
+
+For the one-day intensive:
+
+- Lab 00 is mandatory pre-work
+- Labs 01 and 02 are taught in a consolidated foundations and planning block
+- Labs 03 and 04 are taught in a consolidated investigation and dynamic-evidence block
+- Labs 05 and 06 are taught in a consolidated review and workflow-design block
+- Lab 07 is reduced to a lightweight improvement-loop closeout instead of the full Day 4 depth
+
 ## Cross-Course Instructor Material
 
 - [LIVE-TRAINING-AGENDA.md](LIVE-TRAINING-AGENDA.md)
+- [ONE-DAY-LIVE-AGENDA.md](ONE-DAY-LIVE-AGENDA.md)
 - [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
 - [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
 - [WORKFLOW-INTEGRATION.md](WORKFLOW-INTEGRATION.md)

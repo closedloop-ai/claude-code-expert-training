@@ -9,7 +9,8 @@ This directory contains instructor-facing presentation guides for the live four-
 3. [day-02-intent-recovery-and-dynamic-context.md](day-02-intent-recovery-and-dynamic-context.md)
 4. [day-03-review-discipline-and-workflow-design.md](day-03-review-discipline-and-workflow-design.md)
 5. [day-04-operating-system-and-continuous-improvement.md](day-04-operating-system-and-continuous-improvement.md)
-6. [demo-artifacts/README.md](demo-artifacts/README.md)
+6. [one-day-intensive.md](one-day-intensive.md)
+7. [demo-artifacts/README.md](demo-artifacts/README.md)
 
 ## How to Use These Files
 
