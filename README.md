@@ -26,11 +26,10 @@ For course planning and internal delivery, begin with the formal syllabus and la
 The course is organized as a sequence of numbered labs.
 
 1. **Lab 00: No Speed Limits Setup & Local Stack Bootstrap**  
-   **No Speed Limits Setup & Local Stack Bootstrap**  
    Install, configure, warm up the repository, and establish baseline operating rules.
 2. **Lab 01: Know the Machine: Claude Code Primitives**  
    Understand prompts, tools, skills, agents, subagents, hooks, MCP, workflows, and when to use each.
-3. **Lab 02: From Mess to Mission: Execution Briefs**  
+3. **Lab 02: From Mess to Mission: Creating Plans for Execution.**  
    Turn ambiguous work into plans, context maps, open-question registers, and bounded work packages.
 4. **Lab 03: Commit Archaeology: Find the Why Before the What**  
    Use Git history, blame, commits, issues, and PRs to recover intent before editing.

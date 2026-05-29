@@ -32,7 +32,7 @@ Topics:
 Primary artifact:
 - primitive design worksheet
 
-## Lab 02 — From Mess to Mission: Execution Briefs
+## Lab 02 — From Mess to Mission: Creating Plans for Execution.
 
 Participants take a piece of work and turn it into an execution-ready plan. Topics include intake assessment, bounded codebase Q&A, context maps, assumptions, open-question registers, work disaggregation, peer review, and execution briefs.
 

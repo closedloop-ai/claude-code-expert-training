@@ -1,4 +1,4 @@
-# Lab 02 — From Mess to Mission: Execution Briefs
+# Lab 02 — From Mess to Mission: Creating Plans for Execution.
 
 ## Demo Ticket
 

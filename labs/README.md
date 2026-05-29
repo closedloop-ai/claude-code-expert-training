@@ -6,7 +6,7 @@ This directory contains the numbered lab sequence for the ClosedLoop.AI Claude C
 
 1. `00-setup-onboarding` — No Speed Limits Setup & Local Stack Bootstrap
 2. `01-primitives` — Know the Machine: Claude Code Primitives
-3. `02-planning` — From Mess to Mission: Execution Briefs
+3. `02-planning` — From Mess to Mission: Creating Plans for Execution.
 4. `03-history-issues` — Commit Archaeology: Find the Why Before the What
 5. `04-feedback-tools` — Give Claude Eyes & Ears: Connecting Dynamic Data Sources
 6. `05-review-testing` — Diff Court: Review, Test, Prove
