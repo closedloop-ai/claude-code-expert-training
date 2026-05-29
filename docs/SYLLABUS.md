@@ -2,7 +2,7 @@
 
 ## Format
 
-The course is structured as an Arden-style sequence of numbered labs. Each lab has a single operating objective, a realistic scenario, explicit deliverables, and handoff points to the next lab.
+The course is structured as a sequence of numbered labs. Each lab has a single operating objective, a realistic scenario, explicit deliverables, and handoff points to the next lab.
 
 ## Lab 00 — Setup and Onboarding
 
