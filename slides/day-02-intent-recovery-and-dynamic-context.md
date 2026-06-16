@@ -94,7 +94,7 @@ Slides:
 21. Improving it with a failing test
 22. Improving it again with CLI output and docs
 23. Adding a screenshot or simulator observation
-24. Final evidence bundle and revised instruction
+24. Final feedback bundle and revised instruction
 
 Demo goals:
 

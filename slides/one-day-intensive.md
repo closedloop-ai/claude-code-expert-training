@@ -162,10 +162,10 @@ Do not cut:
 
 Participants should leave with:
 
-- primitive and routing board
+- primitive kit
 - compact execution brief
 - short investigation memo
-- evidence bundle
+- feedback bundle
 - review and verification packet
-- compact workflow sketch
+- compact workflow spec
 - one next-run improvement note

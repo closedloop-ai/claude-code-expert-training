@@ -60,7 +60,7 @@ Focus:
 
 Primary artifacts:
 
-- primitive and routing board
+- primitive kit
 - first-pass skill definition
 
 ### Block 2 — Planning
@@ -90,7 +90,7 @@ Focus:
 Primary artifacts:
 
 - short investigation memo
-- revised evidence bundle
+- revised feedback bundle
 
 ### Block 4 — Review and Verification
 
@@ -137,7 +137,7 @@ Instead, it asks participants to leave with:
 
 ## Demo Cadence
 
-- opening block: primitive and routing critique
+- opening block: primitive kit critique
 - middle block: investigation memo and feedback-bundle critique
 - later block: review packet critique
 - final block: compact workflow walkthrough
