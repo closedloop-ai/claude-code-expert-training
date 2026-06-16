@@ -428,4 +428,7 @@ A good participant demo should show:
 - [../templates/skill-template.md](../templates/skill-template.md)
 - [../templates/custom-agent-template.md](../templates/custom-agent-template.md)
 - [../templates/command-template.md](../templates/command-template.md)
+- [../templates/hook-template.json](../templates/hook-template.json)
+- [../templates/tool-script-template.sh](../templates/tool-script-template.sh)
 - [../templates/mcp-tool-template.json](../templates/mcp-tool-template.json)
+- [../templates/plugin-manifest-template.json](../templates/plugin-manifest-template.json)
