@@ -6,7 +6,7 @@ Use these files during lecture, walkthroughs, and demos when you want concrete e
 
 ## Artifact Set
 
-- [day-01-primitive-and-routing-board.md](day-01-primitive-and-routing-board.md)
+- [day-01-primitive-kit.md](day-01-primitive-kit.md)
 - [day-02-investigation-memo-example.md](day-02-investigation-memo-example.md)
 - [day-02-feedback-bundle-example.md](day-02-feedback-bundle-example.md)
 - [day-03-review-and-verification-packet.md](day-03-review-and-verification-packet.md)

@@ -47,8 +47,8 @@ Get participants to classify work correctly and route by job instead of hype.
 
 Recommended demo artifact:
 
-- [demo-artifacts/day-01-primitive-and-routing-board.md](demo-artifacts/day-01-primitive-and-routing-board.md)
-- [demo-artifacts/anti-patterns/day-01-primitive-board-anti-pattern.md](demo-artifacts/anti-patterns/day-01-primitive-board-anti-pattern.md)
+- [demo-artifacts/day-01-primitive-kit.md](demo-artifacts/day-01-primitive-kit.md)
+- [demo-artifacts/anti-patterns/day-01-primitive-kit-anti-pattern.md](demo-artifacts/anti-patterns/day-01-primitive-kit-anti-pattern.md)
 
 ### Block 2 — Planning and Context Management
 

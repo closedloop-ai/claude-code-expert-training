@@ -1,6 +1,6 @@
 # Day 1 Anti-Pattern Artifact
 
-## Primitive Board
+## Primitive Kit (Anti-Pattern)
 
 ### Task
 
@@ -8,7 +8,7 @@ We need Claude to help with tickets better.
 
 ## Proposed Setup
 
-- use an agent for all ticket work
+- use one big agent for all ticket work
 - maybe add some commands later
 - probably make a plugin too
 - use the best model for everything
@@ -29,10 +29,9 @@ We need Claude to help with tickets better.
 
 ## Why This Is Weak
 
-- no task-by-task classification
+- no primitives are actually crafted; one vague agent absorbs everything
 - no distinction between tool, command, skill, agent, and plugin
-- no model-routing logic
-- no mode selection
-- no output artifacts
-- no stop conditions
-- no explanation of why the chosen abstraction is correct
+- no spec per primitive: missing mode, model, inputs, outputs, and stop conditions
+- no model selection by job
+- no sense of how the primitives stitch into a workflow
+- packaged as a plugin before the workflow has stabilized

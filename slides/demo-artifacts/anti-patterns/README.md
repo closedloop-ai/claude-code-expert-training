@@ -10,7 +10,7 @@ Use them to ask:
 
 ## Artifact Set
 
-- [day-01-primitive-board-anti-pattern.md](day-01-primitive-board-anti-pattern.md)
+- [day-01-primitive-kit-anti-pattern.md](day-01-primitive-kit-anti-pattern.md)
 - [day-02-investigation-memo-anti-pattern.md](day-02-investigation-memo-anti-pattern.md)
 - [day-02-feedback-bundle-anti-pattern.md](day-02-feedback-bundle-anti-pattern.md)
 - [day-03-review-packet-anti-pattern.md](day-03-review-packet-anti-pattern.md)
