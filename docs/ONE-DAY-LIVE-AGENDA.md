@@ -67,7 +67,7 @@ Primary artifacts:
 
 Focus:
 
-- execution briefs
+- Implementation Plans
 - context maps
 - open-question registers
 - context-window management
@@ -75,7 +75,7 @@ Focus:
 
 Primary artifacts:
 
-- compact execution brief
+- Implementation Plan
 - bounded work package list
 
 ### Block 3 — Investigation and Dynamic Context
@@ -85,12 +85,12 @@ Focus:
 - Git history and blame
 - issues and PRs
 - logs, tests, CLI traces, screenshots, docs, and MCP-backed context
-- feedback bundles
+- Request Changess
 
 Primary artifacts:
 
-- short investigation memo
-- revised feedback bundle
+- short Explore findings
+- revised Request Changes
 
 ### Block 4 — Review and Verification
 
@@ -105,7 +105,7 @@ Focus:
 Primary artifacts:
 
 - review findings
-- verification packet
+- Review
 
 ### Block 5 — Workflow and Lightweight Improvement Loop
 
@@ -114,11 +114,11 @@ Focus:
 - named multi-agent workflow
 - artifact handoffs
 - gates and stop conditions
-- one simple scorecard for next-run improvement
+- one simple Workflow retro for next-run improvement
 
 Primary artifacts:
 
-- compact workflow spec
+- Workflow
 - minimal improvement checklist
 
 ## What Is Deliberately Reduced
@@ -138,8 +138,8 @@ Instead, it asks participants to leave with:
 ## Demo Cadence
 
 - opening block: primitive kit critique
-- middle block: investigation memo and feedback-bundle critique
-- later block: review packet critique
+- middle block: Explore findings and feedback-bundle critique
+- later block: Review critique
 - final block: compact workflow walkthrough
 
 ## Instructor Guidance

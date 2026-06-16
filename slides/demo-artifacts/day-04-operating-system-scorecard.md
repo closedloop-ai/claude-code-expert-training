@@ -1,6 +1,6 @@
 # Day 4 Demo Artifact
 
-## Agentic Operating System Scorecard
+## Agentic Operating System Workflow Retro
 
 ### Workflow Observed
 

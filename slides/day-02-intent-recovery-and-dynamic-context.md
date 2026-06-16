@@ -40,7 +40,7 @@ Slides:
 6. `git log`, `git blame`, and historical diff inspection
 7. Confirmed evidence versus inferred intent
 8. When the historical record disagrees with the current plan
-9. Investigation memo structure
+9. Explore findings structure
 
 Instructor notes:
 
@@ -94,7 +94,7 @@ Slides:
 21. Improving it with a failing test
 22. Improving it again with CLI output and docs
 23. Adding a screenshot or simulator observation
-24. Final feedback bundle and revised instruction
+24. Final Request Changes and revised instruction
 
 Demo goals:
 
@@ -125,8 +125,8 @@ Time: 45 minutes
 
 Slides:
 
-29. Lab 03 output: investigation memo
-30. Lab 04 output: feedback bundle
+29. Lab 03 output: Explore findings
+30. Lab 04 output: Request Changes
 31. What makes a dynamic artifact merge-worthy
 32. Demo expectations for end of day
 33. Day 3 handoff: evidence becomes review input
@@ -242,7 +242,7 @@ This slide is where Day 1 concepts become operational. MCP is not a novelty item
 
 ## Demo Script
 
-### Demo 1 — From Suspicion to Investigation Memo
+### Demo 1 — From Suspicion to Explore Findings
 
 Scenario:
 
@@ -284,7 +284,7 @@ Upgrade it live to:
 
 ## Worked Artifact Example
 
-Use this in class as a sample investigation memo excerpt:
+Use this in class as a sample Explore findings excerpt:
 
 ```md
 ## Confirmed Evidence
@@ -344,7 +344,7 @@ A good participant demo should show:
 
 - at least one historical artifact with explanation
 - clear separation of evidence and inference
-- a feedback bundle using multiple dynamic sources
+- a Request Changes using multiple dynamic sources
 - a revised instruction that is narrower and more actionable than the original
 
 ## Required Supporting Files

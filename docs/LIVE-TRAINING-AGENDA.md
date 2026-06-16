@@ -84,7 +84,7 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 - primitive decision worksheet
 - agent and skill anatomy notes
 - draft skill definition for one repeated team task
-- execution brief
+- Implementation Plan
 - context map
 - open-question register
 
@@ -102,10 +102,10 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 
 ### Expected Outputs
 
-- investigation memo
+- Explore findings
 - evidence links from Git, issues, and PRs
 - dynamic-context plan
-- feedback bundle
+- Request Changes
 
 ## Day 3 — Review Discipline and Workflow Design
 
@@ -123,8 +123,8 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 ### Expected Outputs
 
 - review notes
-- verification packet
-- named multi-agent workflow specification
+- Review
+- named multi-agent Workflowification
 - phase and handoff map
 
 ## Day 4 — Operating System and Improvement Loop
@@ -156,9 +156,9 @@ Within the lesson block, reserve the opening minutes for the concept introductio
 
 ## Recommended Demo Cadence
 
-- Day 1: demo the execution brief and primitive choices
-- Day 2: demo the investigation memo and connected data sources
-- Day 3: demo the review packet and multi-agent workflow
+- Day 1: demo the Implementation Plan and primitive choices
+- Day 2: demo the Explore findings and connected data sources
+- Day 3: demo the Review and multi-agent workflow
 - Day 4: demo the operating system specification and improvement loop
 
 ## Presentation Guides

@@ -38,7 +38,7 @@ Focus on:
 2. behavioral regressions,
 3. missing tests,
 4. unnecessary complexity,
-5. mismatch with the execution brief.
+5. mismatch with the Implementation Plan.
 
 Return findings first, ordered by severity.
 ```
@@ -57,7 +57,7 @@ Use this outline:
 
 Use these questions during the diff review:
 
-- Did the change follow the execution brief?
+- Did the change follow the Implementation Plan?
 - Did it touch files outside the approved work package?
 - What assumptions are still untested?
 - What would a skeptical reviewer flag?

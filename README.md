@@ -77,7 +77,7 @@ By the end of the course, participants should be able to:
 - select the correct primitive or abstraction for a given task
 - explain the operating DNA of tools, skills, agents, subagents, hooks, MCP servers, and workflows
 - decide when to work interactively, when to run headless, when to use goal mode, and when to use debate mode
-- convert ambiguous work into an execution brief with explicit assumptions, context boundaries, and compact handoff artifacts
+- convert ambiguous work into an Implementation Plan with explicit assumptions, context boundaries, and compact handoff artifacts
 - recover implementation intent from Git and GitHub artifacts before making changes
 - connect Claude to useful dynamic data sources instead of relying on static prompts alone
 - evaluate diffs, tests, and verification output with adversarial rigor

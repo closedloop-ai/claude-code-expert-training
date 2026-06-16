@@ -157,7 +157,7 @@ Slides:
 36. Facts, assumptions, and open questions
 37. Build artifacts, not transcript dependency
 38. Context maps and open-question registers
-39. Compact execution briefs
+39. Compact Implementation Plans
 40. Debate review before implementation
 
 Instructor notes:
@@ -306,7 +306,7 @@ Suggested slide body:
 - Assumptions
 - Open questions
 - Work packages
-- Compact execution brief
+- Compact Implementation Plan
 
 Suggested speaker notes:
 
@@ -325,7 +325,7 @@ A team repeatedly receives small bugfix tickets with vague acceptance criteria a
 Steps:
 
 1. Start with the raw repeated task:
-   `Take a ticket, inspect the repo, identify open questions, produce an execution brief.`
+   `Take a ticket, inspect the repo, identify open questions, produce an Implementation Plan.`
 2. Ask the room:
    `What part is just a one-off prompt?`
    `What part is a reusable invocation?`
@@ -351,7 +351,7 @@ Use this in class as an example of a first-pass skill definition:
 # Skill: ticket-to-plan
 
 ## Purpose
-Turn an ambiguous engineering ticket into a compact execution brief.
+Turn an ambiguous engineering ticket into an Implementation Plan.
 
 ## When to use
 Use when a work item is real but underspecified.
@@ -367,12 +367,12 @@ Use when a work item is real but underspecified.
 3. separate assumptions from facts
 4. list open questions
 5. create phased work packages
-6. produce a compact execution brief
+6. produce an Implementation Plan
 
 ## Outputs
 - context map
 - open-question register
-- execution brief
+- Implementation Plan
 
 ## Verification checklist
 - assumptions are explicit
@@ -406,7 +406,7 @@ Start with messy notes from an ambiguous request. Compress them into:
 - assumptions
 - open questions
 - work packages
-- compact execution brief
+- Implementation Plan
 
 ## End-of-Day Demo Rubric
 
@@ -415,7 +415,7 @@ A good participant demo should show:
 - the chosen primitives and modes
 - at least one clear rationale for command versus skill versus agent
 - one draft reusable skill
-- a compact execution brief
+- an Implementation Plan
 - explicit context boundaries
 
 ## Required Supporting Files

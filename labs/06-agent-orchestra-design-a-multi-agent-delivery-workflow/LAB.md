@@ -16,14 +16,14 @@ If you had to run this work again next week, how would you design the agentic wo
 | --- | --- |
 | Lab 00 | local setup, repo commands, toolchain assumptions |
 | Lab 01 | primitive decision tree: prompt, tool, skill, agent, hook, MCP, workflow |
-| Lab 02 | execution brief, context map, open-question register, work packages |
+| Lab 02 | Implementation Plan, context map, open-question register, work packages |
 | Lab 03 | Git history and issue investigation steps |
 | Lab 04 | dynamic data sources: logs, tests, CLI output, screenshots, MCP, APIs, docs |
 | Lab 05 | diff review, adversarial review, tests, verification evidence |
 
 ## Workflow Output
 
-Participants produce a named multi-agent workflow specification with the following sections:
+Participants produce a named multi-agent Workflowification with the following sections:
 
 - workflow name
 - goal
@@ -46,7 +46,7 @@ Participants produce a named multi-agent workflow specification with the followi
 
 ## Output File
 
-Create a single workflow spec document that another team member could run without additional explanation.
+Create a single Workflow document that another team member could run without additional explanation.
 
 ## Example Capstone Workflow
 

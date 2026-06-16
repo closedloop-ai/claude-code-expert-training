@@ -128,7 +128,7 @@ Slides:
 
 31. Lab 05 outputs
 32. Lab 06 outputs
-33. What makes a workflow spec reusable
+33. What makes a Workflow reusable
 34. Day 4 handoff: observability begins after workflow exists
 
 Instructor notes:
@@ -248,7 +248,7 @@ A seemingly correct patch touches an extra helper file and adds an unnecessary r
 
 Steps:
 
-1. Put the execution brief on screen.
+1. Put the Implementation Plan on screen.
 2. Show the diff.
 3. Ask the room to identify:
    - planned change
@@ -285,7 +285,7 @@ Use this in class as a sample handoff:
 ## Handoff: Plan Critic -> Implementation Agent
 
 ### Pass
-- approved execution brief
+- approved Implementation Plan
 - context map
 - open-question register with resolved and unresolved items marked
 
@@ -311,7 +311,7 @@ Take a change with extra edits and walk through:
 - why it matters
 - whether the extra work should be reverted, separated, or re-approved
 
-### Demo 2 — Verification Packet
+### Demo 2 — Review
 
 Create a minimal but defensible packet containing:
 
@@ -337,7 +337,7 @@ A good participant demo should show:
 
 - review findings tied to the brief
 - actual verification evidence
-- a workflow spec with named agents and phases
+- a Workflow with named agents and phases
 - at least three explicit gates or stop conditions
 
 ## Required Supporting Files

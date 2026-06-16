@@ -1,6 +1,6 @@
 # Day 2 Demo Artifact
 
-## Investigation Memo
+## Explore Findings
 
 ### Work Item
 

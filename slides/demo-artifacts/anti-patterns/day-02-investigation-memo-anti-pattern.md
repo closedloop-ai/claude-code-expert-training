@@ -1,6 +1,6 @@
 # Day 2 Anti-Pattern Artifact
 
-## Investigation Memo
+## Explore Findings
 
 I checked the code and it looks like this branch is old and probably not needed anymore.
 

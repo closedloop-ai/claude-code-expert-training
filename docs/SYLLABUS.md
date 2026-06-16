@@ -49,7 +49,7 @@ Primary artifact:
 
 ## Lab 02 — From Mess to Mission: Creating Plans for Execution.
 
-Participants take a piece of work and turn it into an execution-ready plan. Topics include intake assessment, bounded codebase Q&A, context maps, assumptions, open-question registers, work disaggregation, peer review, and execution briefs.
+Participants take a piece of work and turn it into an execution-ready plan. Topics include intake assessment, bounded codebase Q&A, context maps, assumptions, open-question registers, work disaggregation, peer review, and Implementation Plans.
 
 Topics:
 - clarifying vague requests
@@ -58,10 +58,10 @@ Topics:
 - planning before editing
 - using debate review to pressure-test a plan before implementation
 - defining phases and verification gates
-- handoff-quality execution briefs
+- handoff-quality Implementation Plans
 
 Primary artifact:
-- implementation plan and execution brief
+- implementation plan and Implementation Plan
 
 ## Lab 03 — Commit Archaeology: Find the Why Before the What
 
@@ -75,7 +75,7 @@ Topics:
 - reconstructing product and technical intent
 
 Primary artifact:
-- investigation memo with evidence links and hypotheses
+- Explore findings with evidence links and hypotheses
 
 ## Lab 04 — Give Claude Eyes & Ears: Connecting Dynamic Data Sources
 
@@ -91,7 +91,7 @@ Topics:
 - narrowing the problem with concrete observations
 
 Primary artifact:
-- connected dynamic-context plan and feedback bundle
+- connected dynamic-context plan and Request Changes
 
 ## Lab 05 — Review, Test, & Verify
 
@@ -104,7 +104,7 @@ Topics:
 - evidence-first PR handoff
 
 Primary artifact:
-- code change, review notes, and verification packet
+- code change, review notes, and Review
 
 ## Lab 06 — Agent Orchestra: Design a Multi-Agent Delivery Workflow
 
@@ -120,7 +120,7 @@ Topics:
 - reusable workflow design
 
 Primary artifact:
-- named multi-agent workflow specification
+- named multi-agent Workflowification
 
 ## Lab 07 — Build Your Agentic Operating System
 

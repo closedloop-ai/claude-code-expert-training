@@ -14,7 +14,7 @@ Choose the right Claude Code primitive or operating mode for a task, and explain
 
 ## Scenario
 
-You have a repeated workflow: given a ticket, inspect the codebase, identify open questions, create an implementation plan, and prepare a clean execution brief.
+You have a repeated workflow: given a ticket, inspect the codebase, identify open questions, create an implementation plan, and prepare a clean Implementation Plan.
 
 Your team also wants to know which parts of that workflow should become a reusable skill, which steps need a focused agent or subagent, and which actions should stay as direct tool use.
 

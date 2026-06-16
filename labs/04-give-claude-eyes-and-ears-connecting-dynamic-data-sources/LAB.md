@@ -27,7 +27,7 @@ Use at least three of the following:
 - diff excerpt showing the suspicious area
 - short written observation about what changed versus what was expected
 
-## Example Feedback Bundle
+## Example Request Changes
 
 An acceptable bundle might include:
 
@@ -70,7 +70,7 @@ Explain which file changed and why.
 
 ## Deliverable
 
-Create a feedback bundle containing:
+Create a Request Changes containing:
 
 - one failing artifact
 - one connected dynamic data source beyond the failing artifact

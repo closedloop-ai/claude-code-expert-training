@@ -1,6 +1,6 @@
 # Day 3 Demo Artifact
 
-## Review and Verification Packet
+## Review and Review
 
 ### Change Summary
 
@@ -15,7 +15,7 @@ Added validation so unknown discount codes now raise a clear error before pricin
 
 ### Medium
 
-The first draft also refactored tax calculation naming even though the execution brief did not authorize unrelated cleanup. That change should be removed or split into separate work.
+The first draft also refactored tax calculation naming even though the Implementation Plan did not authorize unrelated cleanup. That change should be removed or split into separate work.
 
 ### Low
 
@@ -47,7 +47,7 @@ Unknown discount codes now fail closed with a clear error.
 
 ### Why
 
-The execution brief required invalid codes to stop processing rather than continue silently.
+The Implementation Plan required invalid codes to stop processing rather than continue silently.
 
 ### What Was Verified
 

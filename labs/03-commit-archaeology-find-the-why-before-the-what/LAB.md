@@ -8,7 +8,7 @@ Recover intent before editing code.
 
 - local Git history
 - any linked GitHub issue or PR
-- the execution brief from Lab 02
+- the Implementation Plan from Lab 02
 - [investigation-memo-template.md](investigation-memo-template.md)
 
 ## Scenario
@@ -62,7 +62,7 @@ Do not edit code.
 
 ## Deliverable
 
-Produce an investigation memo with:
+Produce an Explore findings with:
 
 - the relevant commit hashes
 - the likely intent of the change
@@ -73,7 +73,7 @@ Use [investigation-memo-template.md](investigation-memo-template.md) if you want
 
 ## Reused Later
 
-The investigation memo becomes a required handoff artifact in Lab 06 for any workflow that claims to recover intent before editing.
+The Explore findings becomes a required handoff artifact in Lab 06 for any workflow that claims to recover intent before editing.
 
 ## Pass Criteria
 

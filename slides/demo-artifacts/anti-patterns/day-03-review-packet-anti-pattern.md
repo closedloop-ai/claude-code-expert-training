@@ -20,7 +20,7 @@ Ready to merge.
 
 - no findings-first structure
 - no severity ordering
-- no comparison against the execution brief
+- no comparison against the Implementation Plan
 - no commands listed
 - no evidence of what passed
 - no residual risk

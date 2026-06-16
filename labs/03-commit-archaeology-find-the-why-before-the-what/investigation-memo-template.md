@@ -1,4 +1,4 @@
-# Investigation Memo
+# Explore Findings
 
 ## Work Item
 

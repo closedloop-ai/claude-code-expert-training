@@ -94,7 +94,7 @@ Slides:
 
 Demo goals:
 
-- turn a workflow spec into an operating system spec
+- turn a Workflow into an operating system spec
 - show how a workflow becomes measurable and improvable
 
 ### Block 6 — Governance and Model Routing Over Time

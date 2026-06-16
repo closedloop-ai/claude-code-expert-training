@@ -15,8 +15,8 @@ Each primitive is written down with an explicit spec: what it does, which mode a
 | intake prompt | inspect a file and explain current behavior | interactive | current behavior summary |
 | test tool call | run tests and show failure output | interactive | failing test evidence |
 | `/intake-ticket` command | turn a raw ticket into a standard intake summary | interactive | ticket intake summary |
-| `ticket-to-brief` skill | turn vague tickets into structured plans | goal mode | execution brief |
-| history-investigator subagent | recover Git and PR intent in isolated context | interactive | investigation memo |
+| `ticket-to-brief` skill | turn vague tickets into structured plans | goal mode | Implementation Plan |
+| history-investigator subagent | recover Git and PR intent in isolated context | interactive | Explore findings |
 | plan-prosecutor agent | red-team the implementation plan | debate mode | plan findings |
 | `review-workflow-pack` plugin | distribute the reusable command + subagent + MCP setup to the team | headless (print mode) install, interactive use | shared team bundle |
 
@@ -25,8 +25,8 @@ Each primitive is written down with an explicit spec: what it does, which mode a
 Crafted primitives are only useful when they connect. For one ticket, the kit runs as a sequence:
 
 1. `/intake-ticket` command -> ticket intake summary
-2. history-investigator subagent -> investigation memo (why the code is shaped this way)
-3. `ticket-to-brief` skill -> compact execution brief
+2. history-investigator subagent -> Explore findings (why the code is shaped this way)
+3. `ticket-to-brief` skill -> Implementation Plan
 4. implementation -> bounded change made from the brief
 5. plan-prosecutor agent -> review findings against the brief
 

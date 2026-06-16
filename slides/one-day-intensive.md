@@ -8,8 +8,8 @@ Participants should leave with:
 
 - a practical operating model for Claude Code
 - one compact planning artifact
-- one investigation memo and feedback bundle pattern
-- one review and verification packet pattern
+- one Explore findings and Request Changes pattern
+- one Review pattern
 - one compact multi-agent workflow design
 
 Lab 00 setup is required pre-work and is not taught live except for a brief readiness check.
@@ -58,7 +58,7 @@ Slides:
 
 8. Planning is context management
 9. Facts, assumptions, and open questions
-10. Context maps and compact execution briefs
+10. Context maps and Implementation Plans
 11. Debate review before coding
 12. What makes a plan reusable downstream?
 
@@ -77,7 +77,7 @@ Slides:
 15. Evidence versus inference
 16. Dynamic evidence sources
 17. Why “that didn’t work” fails as feedback
-18. What makes a good feedback bundle?
+18. What makes a good Request Changes?
 
 Speaker goal:
 
@@ -99,7 +99,7 @@ Slides:
 19. Review the diff against the brief
 20. Scope drift and regression risk
 21. Testing is one gate, not the only gate
-22. What a verification packet must contain
+22. What a Review must contain
 23. What makes a handoff PR-ready?
 
 Speaker goal:
@@ -120,7 +120,7 @@ Slides:
 24. Build a compact multi-agent workflow
 25. Handoffs, gates, and stop conditions
 26. What should be improved on the next run?
-27. One lightweight scorecard
+27. One lightweight Workflow retro
 28. Closing synthesis
 
 Speaker goal:
@@ -163,9 +163,9 @@ Do not cut:
 Participants should leave with:
 
 - primitive kit
-- compact execution brief
-- short investigation memo
-- feedback bundle
-- review and verification packet
-- compact workflow spec
+- Implementation Plan
+- short Explore findings
+- Request Changes
+- Review
+- Workflow
 - one next-run improvement note

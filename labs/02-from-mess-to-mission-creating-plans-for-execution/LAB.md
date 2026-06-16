@@ -25,7 +25,7 @@ Requirements:
 
 ## Planning Lesson
 
-Good execution briefs do four things:
+Good Implementation Plans do four things:
 
 1. separate facts from assumptions
 2. identify what must be learned before coding
@@ -42,7 +42,7 @@ Strong planning is also context management. Use the following rules during the l
 - compact long investigation output into short reusable notes
 - pass artifacts, not raw exploration history, into later execution and review steps
 
-If the plan cannot fit into a compact execution brief, it is not ready.
+If the plan cannot fit into an Implementation Plan, it is not ready.
 
 ## Planning Modes
 
@@ -55,12 +55,12 @@ Lab 02 should also make explicit use of operating modes from Lab 01:
 
 1. Assess intake quality.
 2. Explore codebase context without editing and keep the search bounded.
-3. Build a context map that identifies which findings should survive into the execution brief.
+3. Build a context map that identifies which findings should survive into the Implementation Plan.
 4. Build an open-question register.
 5. Draft an implementation plan.
 6. Disaggregate work into executable packages.
 7. Run peer or debate review.
-8. Compact the plan into a Day 05 execution brief.
+8. Compact the plan into a Day 05 Implementation Plan.
 
 ## Required Artifacts
 
@@ -70,7 +70,7 @@ Produce the following as separate sections or separate files:
 - context map
 - open-question register
 - implementation plan
-- execution brief
+- Implementation Plan
 - short context-budget note explaining what information was intentionally excluded
 
 ## Worked Example
@@ -80,7 +80,7 @@ Use [implementation-plan-example.md](implementation-plan-example.md) as a refere
 ## Example Planning Prompt
 
 ```text
-You are preparing an execution brief for a small change to the demo app.
+You are preparing an Implementation Plan for a small change to the demo app.
 
 Goal:
 Add optional percentage discount-code support.
@@ -98,7 +98,7 @@ Do not implement yet.
 
 ## Example Output Shape
 
-Your execution brief should have, at minimum:
+Your Implementation Plan should have, at minimum:
 
 - one-sentence goal
 - current behavior summary
@@ -115,7 +115,7 @@ Your execution brief should have, at minimum:
 - context map
 - open questions register
 - implementation plan
-- execution brief
+- Implementation Plan
 - context-budget note
 
 ## Reused Later
@@ -130,8 +130,8 @@ This lab passes when:
 - non-goals are explicit
 - open questions are separated from assumptions
 - work packages are bounded enough to be reviewed phase by phase
-- the execution brief is compact enough to fit within a constrained context window
-- the execution brief is good enough for someone else to implement
+- the Implementation Plan is compact enough to fit within a constrained context window
+- the Implementation Plan is good enough for someone else to implement
 
 ## Suggested Reflection
 

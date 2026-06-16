@@ -109,7 +109,7 @@ Produces final PR title, summary, verification section, risks, and follow-ups.
 
 - context map
 - open-question register
-- investigation memo
+- Explore findings
 - implementation plan
 - work package map
 - diff review
