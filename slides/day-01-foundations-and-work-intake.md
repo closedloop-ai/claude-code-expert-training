@@ -427,3 +427,5 @@ A good participant demo should show:
 - [../labs/02-from-mess-to-mission-creating-plans-for-execution/LAB.md](../labs/02-from-mess-to-mission-creating-plans-for-execution/LAB.md)
 - [../templates/skill-template.md](../templates/skill-template.md)
 - [../templates/custom-agent-template.md](../templates/custom-agent-template.md)
+- [../templates/command-template.md](../templates/command-template.md)
+- [../templates/mcp-tool-template.json](../templates/mcp-tool-template.json)
