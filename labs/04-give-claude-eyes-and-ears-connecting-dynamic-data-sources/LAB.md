@@ -43,12 +43,12 @@ An acceptable bundle might include:
 The previous change still fails.
 
 Evidence:
-- failing test: `test_discount_unknown_code`
-- CLI output: ValueError is not raised
-- docs note: unknown discount codes must fail closed
+- failing test: the old refresh token still validates after rotation
+- CLI output from `pnpm demo`: `OLD token still valid?  true`
+- docs note: a rotated refresh token must reject reuse of the old token
 
-Revise the implementation so unknown codes raise a clear error.
-Do not change unrelated tax behavior.
+Revise SessionStore.rotate so the old token is invalidated on rotation.
+Do not change the login response shape.
 Explain which file changed and why.
 ```
 

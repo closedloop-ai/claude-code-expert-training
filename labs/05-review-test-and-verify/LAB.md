@@ -6,9 +6,8 @@ Review the generated change adversarially, test it, and produce evidence that it
 
 ## Materials
 
-- `examples/demo-app/src/order_totals.py`
-- `examples/demo-app/tests/test_order_totals.py`
-- [solution_order_totals.py](solution_order_totals.py)
+- `examples/demo-app/src/auth/session-store.ts`
+- `examples/demo-app/tests/auth/refresh-token.test.ts`
 
 ## Steps
 
@@ -16,7 +15,7 @@ Review the generated change adversarially, test it, and produce evidence that it
 2. Inspect the diff for scope drift.
 3. Run adversarial code review.
 4. Add meaningful tests.
-5. Run `python -m pytest`.
+5. Run `pnpm test`.
 6. Fix failures without guessing.
 7. Create PR handoff notes.
 
@@ -24,8 +23,8 @@ Review the generated change adversarially, test it, and produce evidence that it
 
 ```bash
 cd examples/demo-app
-python -m pytest
-python src/order_totals.py
+pnpm test
+pnpm demo
 ```
 
 ## Example Review Prompt
@@ -77,7 +76,7 @@ The review findings, verification evidence, and PR handoff become required workf
 
 ## Reference Solution
 
-[solution_order_totals.py](solution_order_totals.py) provides one possible end-state for the demo change. Use it for comparison after review and testing, not as a starting point.
+One correct end-state is a single change in `SessionStore.rotate` (`src/auth/session-store.ts`): delete the previously presented refresh token from the store when the new one is issued, so only the new token validates. Compare against your own change after review and testing — do not start from it.
 
 ## Pass Criteria
 

@@ -9,19 +9,19 @@ The plan should survive context-window pressure: it must be short enough to reus
 ## Materials
 
 - [implementation-plan-example.md](implementation-plan-example.md)
-- `examples/demo-app/src/order_totals.py`
-- `examples/demo-app/tests/test_order_totals.py`
+- `examples/demo-app/src/auth/session-store.ts`
+- `examples/demo-app/tests/auth/refresh-token.test.ts`
 
 ## Demo Ticket
 
-Add support for optional percentage discount codes to `examples/demo-app/src/order_totals.py`.
+Make refresh-token rotation reject reuse of the old token in `examples/demo-app/src/auth/session-store.ts`.
 
 Requirements:
-- discount codes are optional
-- a valid discount reduces subtotal before tax
-- unknown codes should raise a clear error
-- discounts cannot make subtotal negative
-- existing behavior should remain unchanged when no discount code is provided
+- rotating a refresh token still issues a new token
+- after rotation, the previous (old) token must no longer validate
+- an unknown token is still rejected
+- the login response shape must remain unchanged
+- a regression test must cover reuse of the old token after rotation
 
 ## Planning Lesson
 
@@ -82,7 +82,7 @@ Use [implementation-plan-example.md](implementation-plan-example.md) as a refere
 You are preparing an Implementation Plan for a small change to the demo app.
 
 Goal:
-Add optional percentage discount-code support.
+Make refresh-token rotation reject reuse of the old token.
 
 Before proposing code:
 1. inspect the relevant files,

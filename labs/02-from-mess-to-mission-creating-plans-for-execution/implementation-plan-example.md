@@ -2,24 +2,24 @@
 
 ## Goal
 
-Add optional percentage discount-code support to order totals.
+Make refresh-token rotation reject reuse of the old token. Today, after `SessionStore.rotate` issues a new refresh token, the previous token still validates.
 
 ## Non-goals
 
-- No persistence.
-- No external coupon service.
-- No stacking discounts.
+- No database or external session-store persistence.
+- No change to the login response shape.
+- No change to login credential checking.
 
 ## Proposed behavior
 
-When no discount code is provided, totals behave exactly as before. When a known discount code is provided, the subtotal is reduced before tax. Unknown codes raise `ValueError`.
+When a refresh token is rotated, the previous token is invalidated immediately, so only the newly issued token validates. A rotated (old) token is rejected the same way an unknown token is.
 
 ## Work packages
 
-1. Add discount calculation helper.
-2. Extend `total_cents` with optional `discount_code` and `discounts` parameters.
-3. Add tests for no discount, valid discount, unknown code, and discount floor.
+1. Invalidate the previous refresh token inside `SessionStore.rotate` (`src/auth/session-store.ts`).
+2. Add a regression test in `tests/auth/refresh-token.test.ts` that rotates a token and asserts the old token no longer validates.
+3. Confirm the existing rotation and login tests still pass.
 
 ## Verification
 
-Run `python -m pytest` from `examples/demo-app`.
+Run `pnpm test` from `examples/demo-app`. The new regression test fails before the fix and passes after it; `pnpm demo` should print `OLD token still valid?  false`.

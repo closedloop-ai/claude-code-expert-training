@@ -13,7 +13,7 @@ Recover intent before editing code.
 
 ## Scenario
 
-A teammate says, “This pricing behavior looks wrong, but I think it changed for a reason.” Before touching the code, investigate what changed, why it changed, and what downstream behavior depends on it.
+A teammate says, “This refresh-token behavior looks wrong, but I think it changed for a reason.” Before touching the code, investigate what changed, why it changed, and what downstream behavior depends on it.
 
 ## Exercises
 
@@ -26,8 +26,8 @@ A teammate says, “This pricing behavior looks wrong, but I think it changed fo
 ## Example Commands
 
 ```bash
-git log -- examples/demo-app/src/order_totals.py
-git blame examples/demo-app/src/order_totals.py
+git log -- examples/demo-app/src/auth/session-store.ts
+git blame examples/demo-app/src/auth/session-store.ts
 git show <commit>
 ```
 
@@ -36,7 +36,7 @@ If GitHub context exists for the work item, capture the relevant issue or PR lin
 ## Example Investigation Prompt
 
 ```text
-Investigate why this pricing logic currently behaves the way it does.
+Investigate why this refresh-token logic currently behaves the way it does.
 
 Use:
 - git log

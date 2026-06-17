@@ -7,7 +7,7 @@ Get every participant to a known-good starting point before they try to use Clau
 ## What You Need
 
 - Git
-- Python 3
+- Node.js 18+ and pnpm
 - a shell you are comfortable using
 - an editor or IDE
 - this repository cloned locally
@@ -34,7 +34,7 @@ By the end of this lab, participants can:
 
 ## Setup Checklist
 
-1. Confirm shell, editor, and Python are installed.
+1. Confirm shell, editor, Node.js, and pnpm are installed.
 2. Open the repo in both terminal and IDE.
 3. Run the demo-app test suite.
 4. Run the demo app directly.
@@ -47,8 +47,9 @@ Run these commands and capture the output:
 
 ```bash
 cd examples/demo-app
-python -m pytest
-python src/order_totals.py
+pnpm install
+pnpm test
+pnpm demo
 ```
 
 ## Repo Warm-Up Walkthrough
@@ -58,7 +59,7 @@ Complete the following before moving on:
 1. Read the top-level `README.md`.
 2. Read `docs/ONE-DAY-LIVE-AGENDA.md`.
 3. Identify where the labs, examples, templates, docs, and scripts live.
-4. Open `examples/demo-app/src/order_totals.py`.
+4. Open `examples/demo-app/src/auth/session-store.ts`.
 5. Explain what would count as a safe first prompt to Claude if no edits are allowed yet.
 
 ## Example First Prompt
@@ -68,7 +69,7 @@ Use a bounded prompt like this:
 ```text
 Inspect this repository and explain:
 1. what the demo app appears to do,
-2. which file contains the main pricing logic,
+2. which file contains the refresh-token rotation logic,
 3. which tests cover that logic,
 4. what commands I should run before proposing any changes.
 
@@ -91,8 +92,8 @@ Recommended baseline:
 ## Warm-Up Exercises
 
 1. Use the terminal to list the repo layout.
-2. Open `examples/demo-app/src/order_totals.py`.
-3. Run `python -m pytest` in `examples/demo-app`.
+2. Open `examples/demo-app/src/auth/session-store.ts`.
+3. Run `pnpm test` in `examples/demo-app`.
 4. Capture the output and explain what it proves.
 5. Describe how you would ask Claude to investigate without editing yet.
 

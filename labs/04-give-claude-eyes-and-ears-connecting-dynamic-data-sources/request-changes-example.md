@@ -2,22 +2,22 @@
 
 ## Failure
 
-`test_discount_unknown_code` fails because the current implementation silently ignores unknown discount codes.
+The new regression test for refresh-token reuse still fails: after `SessionStore.rotate`, the **old** refresh token continues to validate instead of being rejected.
 
 ## Evidence
 
-- failing test output showing expected `ValueError` was not raised
-- CLI trace showing the exact command used to reproduce the failure
-- policy note from the requirements stating that unknown codes must fail closed
+- failing test output showing the rotated (old) token still passes `validate`
+- CLI trace from `pnpm demo` printing `OLD token still valid?  true`
+- policy note from the requirements stating that a rotated refresh token must not be reusable
 
 ## Observation
 
-The implementation currently treats missing and unknown discount codes as the same case, which collapses a required error path.
+The fix added a new token on rotation but never removed the previous one from the store, so both the old and new tokens validate. The invalidation belongs in `SessionStore.rotate`, not in a calling layer.
 
 ## Revised Instruction to Claude
 
-Revise the pricing logic so unknown discount codes raise a clear `ValueError` while `None` still preserves the current no-discount behavior. Do not change tax semantics or item subtotal calculation.
+In `src/auth/session-store.ts`, update `rotate` so the previously presented refresh token is invalidated when the new one is issued, so only the new token validates. Do not change the login response shape or credential checking.
 
 ## Why This Bundle Is Better
 
-It provides an exact failing case, a policy constraint, and a bounded correction target instead of a generic “this is broken” response.
+It provides an exact failing case, a runtime trace, and a policy constraint, and it points at the precise file and method to change — instead of a generic "this is broken" response.

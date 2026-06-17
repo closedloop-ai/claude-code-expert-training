@@ -15,7 +15,7 @@ The live session is only about five hours. Every minute spent fixing setup is a 
 | **Claude Code** | The CLI you will use all day | [Setup guide](https://docs.claude.com/en/docs/claude-code/setup) · macOS/Linux/WSL: `curl -fsSL https://claude.ai/install.sh \| bash` · Windows (PowerShell): `irm https://claude.ai/install.ps1 \| iex` · npm (any OS, needs Node 18+): `npm install -g @anthropic-ai/claude-code` | `claude --version`<br>then `claude doctor` |
 | **Node.js** (18+) | Required for the npm install of Claude Code and several tools | [nodejs.org/download](https://nodejs.org/en/download) (choose **LTS**) | `node --version` (expect `v18` or newer) |
 | **Git** | Clone the repo and work with version control | [git-scm.com/downloads](https://git-scm.com/downloads) | `git --version` |
-| **Python 3** | Run the demo-app tests and script | [python.org/downloads](https://www.python.org/downloads/) (often preinstalled on macOS/Linux) | `python3 --version` (expect `3.x`) |
+| **pnpm** | Install deps and run the demo-app tests | [pnpm.io/installation](https://pnpm.io/installation) · or `corepack enable` (ships with Node) | `pnpm --version` |
 | **An editor / IDE** | Read and edit code alongside the terminal | [VS Code](https://code.visualstudio.com/) · [JetBrains](https://www.jetbrains.com/) — either works | Open the cloned repo folder in it |
 
 After installing Claude Code, run `claude doctor` — it checks your install, Node version, and auth in one shot and reports anything missing.
@@ -36,17 +36,16 @@ Then confirm you can open it **both** ways:
 
 ## 3. Run the Demo App (Environment Check)
 
-This proves Python and the repo are wired up correctly:
+This proves Node, pnpm, and the repo are wired up correctly:
 
 ```bash
 cd examples/demo-app
-python -m pytest
-python src/order_totals.py
+pnpm install
+pnpm test
+pnpm demo
 ```
 
-Expected: the test suite passes, and the script prints order-total output without errors.
-
-> If `python` is not found, try `python3` instead (`python3 -m pytest`, `python3 src/order_totals.py`).
+Expected: the test suite passes (4 tests), and `pnpm demo` prints a login → token-rotation walk-through without errors.
 
 ## 4. Confirm Claude Code Launches
 
@@ -72,10 +71,10 @@ You do not need to master this — just know what "default-deny vs. allow" means
 Self-check — every box should be ticked before the session:
 
 - [ ] `claude --version` and `claude doctor` succeed
-- [ ] `git --version` and `python3 --version` succeed
+- [ ] `git --version`, `node --version`, and `pnpm --version` succeed
 - [ ] the repo is cloned and opens in **both** terminal and IDE
-- [ ] `python -m pytest` passes in `examples/demo-app`
-- [ ] `python src/order_totals.py` runs and prints output
+- [ ] `pnpm test` passes in `examples/demo-app`
+- [ ] `pnpm demo` runs and prints output
 - [ ] you can launch an interactive `claude` session
 - [ ] you understand the baseline permissions posture
 

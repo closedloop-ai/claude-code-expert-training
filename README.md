@@ -53,7 +53,7 @@ Beyond the one-day path, [Lab 07 — Build Your Agentic Operating System](labs/0
 ```bash
 git clone https://github.com/closedloop-ai/claude-code-expert-training.git
 cd claude-code-expert-training/examples/demo-app
-python -m pytest && python src/order_totals.py
+pnpm install && pnpm test
 ```
 
 Then start with the [pre-work checklist](docs/ONE-DAY-PREWORK-CHECKLIST.md), and open the [workbook](workbook/index.html) for the live day.
