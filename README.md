@@ -2,11 +2,11 @@
 
 Everything you need for the one-day, hands-on Claude Code training. The day teaches one repeatable operating model: **craft the right Claude Code primitives, plan and manage context, recover intent with evidence, review and verify against the plan, and design a workflow you can reuse.**
 
-> This repo is scoped to the **one-day course**. One **extended (bonus) lab** from the longer program is kept and clearly marked as optional.
+> This repo is everything you need for the **one-day course**. The labs are optional, self-paced enrichment; one further-practice lab (07) is included and clearly marked as optional.
 
 ## Start here
 
-1. **Pre-work (required):** complete [Lab 00 — setup](labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md) and the [pre-work checklist](docs/ONE-DAY-PREWORK-CHECKLIST.md) before the live session.
+1. **Pre-work (required):** complete the [pre-work checklist](docs/ONE-DAY-PREWORK-CHECKLIST.md) before the live session. (Prefer a guided walk-through? The optional [Lab 00](labs/00-environment-setup-local-stack-bootstrap/LAB.md) covers the same setup.)
 2. **Agenda:** [docs/ONE-DAY-LIVE-AGENDA.md](docs/ONE-DAY-LIVE-AGENDA.md)
 3. **Workbook (in-class):** open [workbook/index.html](workbook/index.html) in a browser — interactive, with editable examples and progress tracking.
 
@@ -30,7 +30,7 @@ The artifacts you build use ClosedLoop's product nomenclature (Implementation Pl
 workbook/   # the interactive in-class workbook (open index.html)
 docs/       # one-day agenda, pre-work checklist, and reference docs
 slides/     # one-day presentation guide + ready-made demo artifacts (good vs anti-pattern)
-labs/       # Lab 00 setup (required pre-work) + optional enrichment labs (01-06) + a bonus capstone (07)
+labs/       # optional, self-paced enrichment: Lab 00 guided setup + module labs (01-06) + further practice (07)
 templates/  # reusable primitives: command, skill, subagent, hook, tool, MCP server, plugin manifest, verification gate
 examples/   # demo-app the labs run against
 scripts/    # demo test runner
@@ -44,9 +44,9 @@ resources/  # video links
 - [Using Claude in existing workflows](docs/WORKFLOW-INTEGRATION.md)
 - [Lab index](labs/README.md) · [Slides](slides/README.md)
 
-## Extended (bonus)
+## Optional further practice
 
-Beyond the one-day path, [Lab 07 — Build Your Agentic Operating System](labs/07-build-your-agentic-operating-system/LAB.md) is an optional capstone from the longer program: it makes the Lab 06 workflow observable, reviewable, and self-improving. Not required for the one-day course.
+Beyond the one-day path, [Lab 07 — Build Your Agentic Operating System](labs/07-build-your-agentic-operating-system/LAB.md) is optional further practice: it makes the Lab 06 workflow observable, reviewable, and self-improving. Not part of the one-day course.
 
 ## Install
 
@@ -56,4 +56,4 @@ cd claude-code-expert-training/examples/demo-app
 python -m pytest && python src/order_totals.py
 ```
 
-Then open the first lab: [labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md).
+Then start with the [pre-work checklist](docs/ONE-DAY-PREWORK-CHECKLIST.md), and open the [workbook](workbook/index.html) for the live day.

@@ -1,10 +1,10 @@
-# Day 3 Anti-Pattern Artifact
+# Module 4 Anti-Pattern Artifact: Review
 
 ## Review (Anti-Pattern)
 
 Tests pass. Looks good to me. Shipping.
 
-## Why This Is Weak
+## Why this falls short as a handoff
 
 - treats "tests pass" as proof of correctness
 - no statement of what the tests do and do not cover

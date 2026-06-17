@@ -10,11 +10,11 @@ Use them to ask:
 
 ## Artifact Set
 
-- [day-01-primitive-kit-anti-pattern.md](day-01-primitive-kit-anti-pattern.md)
-- [day-02-explore-findings-anti-pattern.md](day-02-explore-findings-anti-pattern.md)
-- [day-02-request-changes-anti-pattern.md](day-02-request-changes-anti-pattern.md)
-- [day-03-review-anti-pattern.md](day-03-review-anti-pattern.md)
-- [day-04-workflow-retro-anti-pattern.md](day-04-workflow-retro-anti-pattern.md)
+- [module-1-primitive-kit-anti-pattern.md](module-1-primitive-kit-anti-pattern.md)
+- [module-3-explore-findings-anti-pattern.md](module-3-explore-findings-anti-pattern.md)
+- [module-3-request-changes-anti-pattern.md](module-3-request-changes-anti-pattern.md)
+- [module-4-review-anti-pattern.md](module-4-review-anti-pattern.md)
+- [module-5-workflow-retro-anti-pattern.md](module-5-workflow-retro-anti-pattern.md)
 
 ## How To Use
 

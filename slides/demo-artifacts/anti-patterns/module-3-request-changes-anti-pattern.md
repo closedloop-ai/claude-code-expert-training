@@ -1,10 +1,10 @@
-# Day 2 Anti-Pattern Artifact
+# Module 3 Anti-Pattern Artifact: Request Changes
 
 ## Request Changes (Anti-Pattern)
 
 That didn't work. Old tokens still work. Try again and make it return 401.
 
-## Why This Is Weak
+## Why this falls short as a handoff
 
 - "that didn't work" omits what was attempted, expected, and observed
 - no evidence: no test name, no actual-vs-expected, no trace

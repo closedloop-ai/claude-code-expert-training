@@ -1,4 +1,4 @@
-# Lab 00 — No Speed Limits Setup & Local Stack Bootstrap
+# Lab 00 — Environment Setup & Local Stack Bootstrap
 
 ## Objective
 
@@ -19,7 +19,7 @@ Every later lab assumes the environment is already working. The purpose of this 
 
 ## Why This Lab Exists
 
-Strong users lose very little time to setup friction. Weak users burn half the session on install issues, terminal confusion, missing tests, or repo context they should have established up front.
+Setup friction is avoidable, and it is expensive: any time spent fixing installs, terminal issues, or missing repo context during the live session is time taken from hands-on practice. Clearing all of it beforehand means everyone can spend the live time building.
 
 ## Outcomes
 
@@ -108,7 +108,7 @@ Recommended baseline:
 - completed setup checklist
 - baseline test output
 - a one-paragraph repo warm-up routine
-- a short baseline operating-rules note for Labs 01 through 07 using [operating-rules-template.md](operating-rules-template.md)
+- a short baseline operating-rules note for the rest of the course using [operating-rules-template.md](operating-rules-template.md)
 
 ## Pass Criteria
 

@@ -4,7 +4,7 @@
 
 Complete this checklist **before** the one-day intensive so you arrive ready to build, not to install.
 
-The live session is only five hours. Every minute spent fixing setup is a minute taken from hands-on instruction. Run the install and verify steps below on the machine you will use during the session.
+The live session is only about five hours. Every minute spent fixing setup is a minute taken from hands-on instruction. Run the install and verify steps below on the machine you will use during the session.
 
 > Tip: run each **Verify** command and confirm you get the expected output. If a command is "not found," the tool is not installed (or not on your `PATH`) — revisit the install step.
 
@@ -26,6 +26,8 @@ After installing Claude Code, run `claude doctor` — it checks your install, No
 git clone https://github.com/closedloop-ai/claude-code-expert-training.git
 cd claude-code-expert-training
 ```
+
+> If you don't have the repository link yet, it will be in your training calendar invite. This checklist is everything you need to arrive ready — there is no separate setup lab you have to complete first.
 
 Then confirm you can open it **both** ways:
 
@@ -65,12 +67,6 @@ Skim how Claude Code decides what it can run without asking, so the live permiss
 
 You do not need to master this — just know what "default-deny vs. allow" means before the session.
 
-## 6. Complete Lab 00
-
-Work through the setup lab end to end:
-
-- [labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
-
 ## You're Ready When
 
 Self-check — every box should be ticked before the session:
@@ -82,17 +78,15 @@ Self-check — every box should be ticked before the session:
 - [ ] `python src/order_totals.py` runs and prints output
 - [ ] you can launch an interactive `claude` session
 - [ ] you understand the baseline permissions posture
-- [ ] you completed Lab 00
 
 ## If You Get Stuck
 
 - Re-run the relevant **Verify** command above and read the error — most issues are a missing install or a `PATH` problem.
 - `claude doctor` diagnoses most Claude Code install and auth issues.
-- Work through [Lab 00](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md) step by step.
 - If something is still broken, note the exact command and error so it can be resolved quickly at the start of the session.
+
+> Want a guided walk-through of the same setup? The optional [Lab 00 — Environment Setup](../labs/00-environment-setup-local-stack-bootstrap/LAB.md) covers everything here as a hands-on lab. It is not required — this checklist is enough.
 
 ## Related Files
 
-- [ONE-DAY-LIVE-AGENDA.md](ONE-DAY-LIVE-AGENDA.md)
-- [../slides/one-day-intensive.md](../slides/one-day-intensive.md)
-- [../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
+- [What to expect on the day (agenda)](ONE-DAY-LIVE-AGENDA.md)

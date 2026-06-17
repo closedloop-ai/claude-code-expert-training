@@ -1,4 +1,4 @@
-# Day 2 Demo Artifact
+# Module 3 Demo Artifact: Explore Findings
 
 ## Explore Findings
 

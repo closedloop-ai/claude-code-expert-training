@@ -1,4 +1,4 @@
-# Lab 02 — From Mess to Mission: Creating Plans for Execution.
+# Lab 02 — From Mess to Mission: Creating Plans for Execution
 
 ## Objective
 
@@ -60,7 +60,7 @@ Lab 02 should also make explicit use of operating modes from Lab 01:
 5. Draft an implementation plan.
 6. Disaggregate work into executable packages.
 7. Run peer or debate review.
-8. Compact the plan into a Day 05 Implementation Plan.
+8. Compact the plan into a single, handoff-ready Implementation Plan.
 
 ## Required Artifacts
 
@@ -69,7 +69,6 @@ Produce the following as separate sections or separate files:
 - intake assessment
 - context map
 - open-question register
-- implementation plan
 - Implementation Plan
 - short context-budget note explaining what information was intentionally excluded
 
@@ -114,7 +113,6 @@ Your Implementation Plan should have, at minimum:
 - intake assessment
 - context map
 - open questions register
-- implementation plan
 - Implementation Plan
 - context-budget note
 

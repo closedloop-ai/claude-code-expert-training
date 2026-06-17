@@ -1,4 +1,4 @@
-# Day 1 Demo Artifact
+# Module 1 Demo Artifact: Primitive Kit
 
 ## Primitive Kit
 
@@ -17,7 +17,7 @@ Each primitive is written down with an explicit spec: what it does, which mode a
 | `/intake-ticket` command | turn a raw ticket into a standard intake summary | interactive | ticket intake summary |
 | `ticket-to-brief` skill | turn vague tickets into structured plans | goal mode | Implementation Plan |
 | history-investigator subagent | recover Git and PR intent in isolated context | interactive | Explore findings |
-| plan-prosecutor agent | red-team the implementation plan | debate mode | plan findings |
+| plan-critic agent | red-team the implementation plan | debate mode | plan findings |
 | `review-workflow-pack` plugin | distribute the reusable command + subagent + MCP setup to the team | headless (print mode) install, interactive use | shared team bundle |
 
 ## Stitching primitives into a workflow
@@ -28,7 +28,7 @@ Crafted primitives are only useful when they connect. For one ticket, the kit ru
 2. history-investigator subagent -> Explore findings (why the code is shaped this way)
 3. `ticket-to-brief` skill -> Implementation Plan
 4. implementation -> bounded change made from the brief
-5. plan-prosecutor agent -> review findings against the brief
+5. plan-critic agent -> review findings against the brief
 
 That sequence is the workflow. It raises the question Module 2 answers: once you can stitch primitives together, **how do you tell the workflow what to accomplish?**
 
@@ -52,7 +52,7 @@ Model routing means choosing a model by the demands of the job, not by habit.
 ### Contains
 
 - one PR review command
-- one diff-prosecutor subagent
+- one diff-reviewer subagent
 - one GitHub MCP setup
 - one post-review hook
 

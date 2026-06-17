@@ -1,4 +1,4 @@
-# Day 1 Anti-Pattern Artifact
+# Module 1 Anti-Pattern Artifact: Primitive Kit
 
 ## Primitive Kit (Anti-Pattern)
 
@@ -27,7 +27,7 @@ We need Claude to help with tickets better.
 3. let it make changes
 4. review if there is time
 
-## Why This Is Weak
+## Why this falls short as a handoff
 
 - no primitives are actually crafted; one vague agent absorbs everything
 - no distinction between tool, command, skill, agent, and plugin

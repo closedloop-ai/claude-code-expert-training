@@ -2,7 +2,7 @@
 
 ## Session Purpose
 
-This is the consolidated five-hour instructor guide for the one-day version of the course.
+This is the consolidated five-hour instructor guide for the one-day course.
 
 Participants should leave with:
 
@@ -18,7 +18,7 @@ Lab 00 setup is required pre-work and is not taught live except for a brief read
 
 Before the session begins, confirm participants have completed:
 
-- [../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
+- [../labs/00-environment-setup-local-stack-bootstrap/LAB.md](../labs/00-environment-setup-local-stack-bootstrap/LAB.md)
 - [../docs/ONE-DAY-PREWORK-CHECKLIST.md](../docs/ONE-DAY-PREWORK-CHECKLIST.md)
 - demo-app warm-up commands
 - local editor and terminal setup
@@ -27,7 +27,7 @@ If setup is incomplete, redirect participants to pre-work follow-up instead of b
 
 ## Time Plan
 
-### Block 1 — Operating Surface and Routing
+### Module 1 — Operating Surface and Routing
 
 Time: 70 minutes
 
@@ -47,10 +47,10 @@ Get participants to classify work correctly and route by job instead of hype.
 
 Recommended demo artifact:
 
-- [demo-artifacts/day-01-primitive-kit.md](demo-artifacts/day-01-primitive-kit.md)
-- [demo-artifacts/anti-patterns/day-01-primitive-kit-anti-pattern.md](demo-artifacts/anti-patterns/day-01-primitive-kit-anti-pattern.md)
+- [demo-artifacts/module-1-primitive-kit.md](demo-artifacts/module-1-primitive-kit.md)
+- [demo-artifacts/anti-patterns/module-1-primitive-kit-anti-pattern.md](demo-artifacts/anti-patterns/module-1-primitive-kit-anti-pattern.md)
 
-### Block 2 — Planning and Context Management
+### Module 2 — Planning and Context Management
 
 Time: 55 minutes
 
@@ -66,7 +66,7 @@ Speaker goal:
 
 Show how to compress messy intake into a small artifact another operator could execute.
 
-### Block 3 — Intent Recovery and Dynamic Evidence
+### Module 3 — Intent Recovery and Dynamic Evidence
 
 Time: 60 minutes
 
@@ -85,12 +85,12 @@ Teach participants to recover intent and improve the next model turn with eviden
 
 Recommended demo artifacts:
 
-- [demo-artifacts/day-02-explore-findings-example.md](demo-artifacts/day-02-explore-findings-example.md)
-- [demo-artifacts/day-02-request-changes-example.md](demo-artifacts/day-02-request-changes-example.md)
-- [demo-artifacts/anti-patterns/day-02-explore-findings-anti-pattern.md](demo-artifacts/anti-patterns/day-02-explore-findings-anti-pattern.md)
-- [demo-artifacts/anti-patterns/day-02-request-changes-anti-pattern.md](demo-artifacts/anti-patterns/day-02-request-changes-anti-pattern.md)
+- [demo-artifacts/module-3-explore-findings-example.md](demo-artifacts/module-3-explore-findings-example.md)
+- [demo-artifacts/module-3-request-changes-example.md](demo-artifacts/module-3-request-changes-example.md)
+- [demo-artifacts/anti-patterns/module-3-explore-findings-anti-pattern.md](demo-artifacts/anti-patterns/module-3-explore-findings-anti-pattern.md)
+- [demo-artifacts/anti-patterns/module-3-request-changes-anti-pattern.md](demo-artifacts/anti-patterns/module-3-request-changes-anti-pattern.md)
 
-### Block 4 — Review, Test, and Verify
+### Module 4 — Review, Test, and Verify
 
 Time: 60 minutes
 
@@ -108,10 +108,10 @@ Make review findings, verification evidence, and residual risk explicit.
 
 Recommended demo artifacts:
 
-- [demo-artifacts/day-03-review.md](demo-artifacts/day-03-review.md)
-- [demo-artifacts/anti-patterns/day-03-review-anti-pattern.md](demo-artifacts/anti-patterns/day-03-review-anti-pattern.md)
+- [demo-artifacts/module-4-review.md](demo-artifacts/module-4-review.md)
+- [demo-artifacts/anti-patterns/module-4-review-anti-pattern.md](demo-artifacts/anti-patterns/module-4-review-anti-pattern.md)
 
-### Block 5 — Workflow Design and Minimal Improvement Loop
+### Module 5 — Workflow Design and Minimal Improvement Loop
 
 Time: 45 minutes
 
@@ -125,12 +125,12 @@ Slides:
 
 Speaker goal:
 
-Leave the room with one named workflow and one credible improvement loop, without expanding into the full Day 4 operating-system depth.
+Leave the room with one named workflow and one credible improvement loop, without expanding into a full operating-system redesign.
 
 Recommended demo artifacts:
 
-- [demo-artifacts/day-04-workflow-retro.md](demo-artifacts/day-04-workflow-retro.md)
-- [demo-artifacts/anti-patterns/day-04-workflow-retro-anti-pattern.md](demo-artifacts/anti-patterns/day-04-workflow-retro-anti-pattern.md)
+- [demo-artifacts/module-5-workflow-retro.md](demo-artifacts/module-5-workflow-retro.md)
+- [demo-artifacts/anti-patterns/module-5-workflow-retro-anti-pattern.md](demo-artifacts/anti-patterns/module-5-workflow-retro-anti-pattern.md)
 
 ## Critique Prompt Pattern
 

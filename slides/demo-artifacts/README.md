@@ -6,11 +6,11 @@ Use these files during lecture, walkthroughs, and demos when you want concrete e
 
 ## Artifact Set
 
-- [day-01-primitive-kit.md](day-01-primitive-kit.md)
-- [day-02-explore-findings-example.md](day-02-explore-findings-example.md)
-- [day-02-request-changes-example.md](day-02-request-changes-example.md)
-- [day-03-review.md](day-03-review.md)
-- [day-04-workflow-retro.md](day-04-workflow-retro.md)
+- [module-1-primitive-kit.md](module-1-primitive-kit.md)
+- [module-3-explore-findings-example.md](module-3-explore-findings-example.md)
+- [module-3-request-changes-example.md](module-3-request-changes-example.md)
+- [module-4-review.md](module-4-review.md)
+- [module-5-workflow-retro.md](module-5-workflow-retro.md)
 - [anti-patterns/README.md](anti-patterns/README.md)
 
 ## How to Use These Files

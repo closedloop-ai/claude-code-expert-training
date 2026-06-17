@@ -59,7 +59,7 @@ Reviews the plan from multiple perspectives: fastest path, safest path, skeptica
 
 Implements one approved phase at a time.
 
-### Diff Prosecutor
+### Diff Reviewer
 
 Reviews the diff for scope drift, unintended behavior changes, missing tests, and unnecessary complexity.
 

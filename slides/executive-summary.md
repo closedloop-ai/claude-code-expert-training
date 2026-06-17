@@ -9,27 +9,25 @@ Each new concept starts with a cohort share-out:
 
 ---
 
-# Four-day structure
+# One day, five modules
 
-1. Foundations and work intake
-2. Intent recovery and dynamic context
-3. Review discipline and workflow design
-4. Operating system and continuous improvement
+The day is built around one repeatable operating model, delivered as five modules:
 
-Day 1 specifics:
-- tools, skills, and agent/subagent anatomy
-- plugins, marketplace use, and packaging strategy
-- skill creation for repeated workflows
-- interactive versus headless execution
-- model selection for the job, including optional non-Anthropic routing
-- goal mode, debate mode, and context-window discipline
+1. **Build Claude Code primitives** — tools, skills, and agent/subagent anatomy; plugins and marketplace use; skill creation for repeated workflows; interactive versus headless execution; model selection for the job; goal mode, debate mode, and context-window discipline.
+2. **Planning & context management** — compress messy intake into a compact, reviewable Implementation Plan.
+3. **Intent recovery & dynamic evidence** — recover the *why* with git history, issues, logs, tests, and screenshots before changing code.
+4. **Review, test & verify** — review the diff against the plan and make risk and verification explicit.
+5. **Workflow design & improvement loop** — turn the day's steps into one named, reusable workflow with handoffs, gates, and stop conditions.
 
-Lab 00 is the pre-course onboarding and environment bootstrap lab.
+Lab 00 is the optional environment-bootstrap lab; the required setup is the pre-work checklist completed before the session.
 
-Day 1: Labs 01 and 02
-Day 2: Labs 03 and 04
-Day 3: Labs 05 and 06
-Day 4: Lab 07
+The optional enrichment labs map to the modules:
+
+- Module 1 → Lab 01
+- Module 2 → Lab 02
+- Module 3 → Labs 03 and 04
+- Module 4 → Lab 05
+- Module 5 → Lab 06
 
 ---
 

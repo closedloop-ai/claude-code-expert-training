@@ -10,18 +10,18 @@
 
 ## Suggested industry videos by theme
 
-### Day 1: primitives and agentic development
+### Primitives and agentic development
 - Andrej Karpathy — Software Is Changing Again / Software 3.0
 - Simon Willison — AI agents, prompt injection, and tool-use safety
 
-### Day 2: planning and decomposition
+### Planning and decomposition
 - Anthropic / Boris Cherny Claude Code demos and interviews
 - Andrew Ng — Agentic workflows: planning, tool use, reflection
 
-### Day 3: review, testing, verification
+### Review, testing, and verification
 - Anthropic Claude Code demos on code review and tool feedback loops
 - Simon Willison — agent safety and verification patterns
 
-### Day 4: operating discipline
+### Operating discipline
 - FinOps Foundation talks on metered compute and cost attribution
 - LangChain / LangSmith talks on tracing, observability, and agent evaluation

@@ -1,159 +1,55 @@
-# One-Day Live Agenda
+# What to Expect — Claude Code One-Day Intensive
 
-## Purpose
+A single, hands-on day that gives you one repeatable operating model for Claude Code: craft the right primitives, plan and manage context, recover intent with evidence, review and verify against the plan, and design a workflow you can reuse.
 
-This is the condensed five-hour version of the course for teams that want a single live session instead of the full four-day program.
+## Format
 
-It preserves the core operating model:
+- One live session of roughly five hours, plus two short breaks.
+- **Hands-on throughout** — you follow along in the workbook and build small artifacts as we go.
+- The **Claude Code CLI on Mac or Linux** is the primary path we demo; the patterns apply to any stack.
+- It's a large group, so questions run through chat (see "How questions work" below).
 
-- primitive and mode selection
-- planning and context management
-- intent recovery and dynamic evidence
-- review and verification discipline
-- workflow design
+## Before you arrive
 
-It reduces the advanced operating-system content from Day 4 and treats setup as mandatory pre-work.
+Complete the short setup so we don't spend live time on installs:
 
-## Required Pre-Work
+- [Setup & pre-work checklist](ONE-DAY-PREWORK-CHECKLIST.md) — about 15 minutes.
 
-Participants must complete Lab 00 before the live session.
+You're ready when `claude` runs on your machine and the demo check passes.
 
-Required pre-work outcomes:
+## Schedule
 
-- Claude Code environment is working
-- repo is cloned locally
-- demo app commands run successfully
-- terminal and IDE are ready
-- participants understand baseline permissions posture
+These module timeboxes match the workbook, which is the single source of truth for the day. Exact start times for your region will be in your calendar invite.
 
-Required pre-work files:
+| Time | Segment | What you'll do | What you'll leave with |
+|------|---------|----------------|------------------------|
+| 0:00–0:05 | Welcome & setup check | Confirm everyone's environment is ready | — |
+| 0:05–1:15 | Module 1 — Build Claude Code primitives | Tools, commands, skills, agents, subagents, plugins; interactive vs. headless; choosing the right model for the job | A primitive kit |
+| 1:15–2:10 | Module 2 — Planning & context management | Turn messy intake into a compact, reviewable Implementation Plan; manage the context window | An Implementation Plan + context map |
+| 2:10–2:20 | Break | | |
+| 2:20–3:20 | Module 3 — Intent recovery & dynamic evidence | Use git history, issues, logs, tests, and screenshots to find the *why* before changing code | Explore findings + a Request Changes review |
+| 3:20–4:20 | Module 4 — Review, test & verify | Review the diff against the plan; make scope, regression risk, and verification explicit | Findings + a Review |
+| 4:20–4:30 | Break | | |
+| 4:30–5:15 | Module 5 — Workflow design & improvement loop | Turn the day's steps into one named, repeatable workflow with handoffs, gates, and stop conditions | A Workflow + one improvement note |
+| 5:15–5:20 | Wrap-up & next steps | What to try first next week | — |
 
-- [../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
-- [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md)
-- [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
+*About five hours of modules plus two short breaks (≈ 5h20m end to end).*
 
-## Delivery Model
+## What you'll leave with
 
-The one-day format runs for five instructional hours, excluding breaks.
+Seven small artifacts you can reuse at work: a primitive kit, an Implementation Plan, Explore findings, a Request Changes review, a Review, a Workflow, and one improvement note. Each is built so another engineer — or Claude — can pick it up without re-reading the whole thread.
 
-Recommended pacing:
+## How questions work
 
-- 35 minutes: course frame and Claude Code operating surface
-- 55 minutes: primitives, marketplace, plugins, skills, commands, agents, and model selection
-- 55 minutes: planning and context-window management
-- 50 minutes: intent recovery and dynamic data sources
-- 55 minutes: review, verification, and PR-ready evidence
-- 35 minutes: multi-agent workflow design
-- 15 minutes: lightweight operating review and final synthesis
+Drop questions in the chat any time. A ClosedLoop engineer answers there live, and we recap the most useful ones at the end of each module, so a question never derails the room.
 
-## Consolidated Flow
+## A note on level
 
-### Block 1 — Foundations
+This is a 201-level session — some of it may already be familiar. Move at your own pace, skim what you know, and lean in where it's new. If you're ahead of the room, help the people around you.
 
-Focus:
+## Supporting material
 
-- operating model for Claude Code
-- tools, commands, skills, agents, subagents, plugins, and marketplace use
-- interactive versus headless execution
-- goal mode and debate mode
-- model selection for the job
-
-Primary artifacts:
-
-- primitive kit
-- first-pass skill definition
-
-### Block 2 — Planning
-
-Focus:
-
-- Implementation Plans
-- context maps
-- open-question registers
-- context-window management
-- artifact-first planning
-
-Primary artifacts:
-
-- Implementation Plan
-- bounded work package list
-
-### Block 3 — Investigation and Dynamic Context
-
-Focus:
-
-- Git history and blame
-- issues and PRs
-- logs, tests, CLI traces, screenshots, docs, and MCP-backed context
-- Request Changes
-
-Primary artifacts:
-
-- Explore findings
-- Request Changes
-
-### Block 4 — Review and Verification
-
-Focus:
-
-- findings-first review
-- scope drift
-- regression risk
-- verification evidence
-- PR handoff
-
-Primary artifacts:
-
-- review findings
-- Review
-
-### Block 5 — Workflow and Lightweight Improvement Loop
-
-Focus:
-
-- named multi-agent workflow
-- artifact handoffs
-- gates and stop conditions
-- one simple Workflow retro for next-run improvement
-
-Primary artifacts:
-
-- Workflow
-- minimal improvement checklist
-
-## What Is Deliberately Reduced
-
-Compared with the four-day course, the one-day version reduces:
-
-- deep observability design
-- full operating-system specification work
-- extended metric design and telemetry planning
-- larger capstone build-out across multiple days
-
-Instead, it asks participants to leave with:
-
-- one workable delivery workflow
-- one clear improvement metric or checklist item
-
-## Demo Cadence
-
-- opening block: primitive kit critique
-- middle block: Explore findings and Request Changes critique
-- later block: Review critique
-- final block: compact workflow walkthrough
-
-## Instructor Guidance
-
-- enforce pre-work completion aggressively
-- do not spend live time repairing setup
-- keep the share-and-tell pattern at the start of each block
-- use the demo artifacts and anti-patterns for fast critique cycles
-- prefer one strong artifact per block over broad but shallow coverage
-- use [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md) as the readiness gate before the session starts
-
-## Supporting Material
-
-- [ONE-DAY-PREWORK-CHECKLIST.md](ONE-DAY-PREWORK-CHECKLIST.md)
-- [PLUGINS-SKILLS-COMMANDS-AND-MODELS.md](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
-- [../slides/one-day-intensive.md](../slides/one-day-intensive.md)
-- [../slides/demo-artifacts/README.md](../slides/demo-artifacts/README.md)
+- [Setup & pre-work checklist](ONE-DAY-PREWORK-CHECKLIST.md)
+- [Plugins, skills, commands & models](PLUGINS-SKILLS-COMMANDS-AND-MODELS.md)
+- [Instructor presentation guide](../slides/one-day-intensive.md)
+- [Demo artifacts](../slides/demo-artifacts/README.md)

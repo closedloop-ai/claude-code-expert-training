@@ -2,12 +2,12 @@
 
 ## Purpose
 
-This guide supports Day 1 of the course. It gives instructors and participants a concrete decision framework for:
+This guide supports Module 1 of the course. It gives instructors and participants a concrete decision framework for:
 
 - using Claude Marketplace and plugins
 - distinguishing plugins, skills, commands, agents, and subagents
 - deciding when work should stay interactive and when it should run headless
-- selecting the right model for the job, including cases where a non-Anthropic model may be appropriate
+- selecting the right model for the job within your organization's approved-model list
 
 ## Start With the Smallest Useful Abstraction
 
@@ -78,7 +78,7 @@ Use an agent when:
 Examples:
 
 - Commit Archaeologist
-- Diff Prosecutor
+- Diff Reviewer
 - Test Strategist
 - PR Narrator
 
@@ -252,7 +252,7 @@ Example: repeated PR review workflow
 
 - command: `/review-risk`
 - skill: `adversarial-code-review`
-- agent: `Diff Prosecutor`
+- agent: `Diff Reviewer`
 - plugin: `review-workflow-pack` containing commands, subagents, hooks, and optional MCP configuration
 
 The same workflow can exist at multiple layers. The question is not which layer is best in general. The question is which layer is best for the current reuse problem.
@@ -347,9 +347,9 @@ Use these heuristics in class discussion:
 - use the strongest reasoning model available for ambiguous planning, adversarial review, and complex coding decisions
 - use a faster model when the work is repetitive, bounded, and easy to verify
 - use batch-friendly lower-cost models for large-scale classification or summarization if quality remains acceptable
-- route to an approved non-Anthropic model only when the organization, platform, cost envelope, or workload makes that the better operational choice
+- route to whichever model your organization has approved for that workload when cost, platform, or policy makes it the better operational choice
 
-The correct answer is not “always Claude” or “always cheapest.” The correct answer is the model that best fits the actual job.
+The correct answer is not “always the biggest” or “always cheapest.” The correct answer is the model that best fits the actual job, within your organization's approved-model policy.
 
 ## Suggested Model Routing Questions
 
@@ -361,20 +361,20 @@ Ask these in order:
 4. Does the environment require a specific vendor or deployment surface?
 5. Does the team need the best available model, or the fastest acceptable model?
 
-## When a Non-Anthropic Model May Be Reasonable
+## When Org-Approved Model Routing Applies
 
-A non-Anthropic model may be reasonable when:
+Some teams operate an approved-model policy that routes certain workloads to a specific model. Route to your organization's approved model for a workload when:
 
-- the organization already standardizes a different model for that workload
+- your organization already standardizes a model for that workload
 - the task is simple enough that model quality is not the bottleneck
-- latency or cost dominates the decision
-- a specific external platform requires a different model family
+- latency or cost dominates the decision and an approved option meets the quality bar
+- an internal platform or compliance requirement mandates a specific model
 
-Examples:
+Examples of workloads commonly routed this way:
 
 - inexpensive summarization at scale
 - batch labeling or classification
-- existing product features already built on another provider
+- existing product features already built on a designated provider
 
 ## When Claude Should Still Be the Preferred Default
 
@@ -401,4 +401,4 @@ A good operator can explain:
 - What repeated workflow in your team should be a command, not a plugin?
 - What repeated workflow in your team should be a skill, not a command?
 - What packaged setup would justify plugin distribution?
-- Which jobs in your current stack would you keep on Claude, and which would you intentionally route elsewhere?
+- Which jobs would you keep on Claude, and which does your organization's approved-model policy route differently?

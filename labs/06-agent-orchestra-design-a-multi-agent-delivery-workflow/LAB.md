@@ -4,7 +4,7 @@
 
 Lab 06 brings together everything from Labs 00 through 05. Participants design a complete multi-phase Claude Code workflow that can take a real piece of work from intake through planning, implementation, review, testing, and PR handoff.
 
-This is the capstone “bring it all together” lab.
+This lab brings it all together.
 
 ## Core Question
 
@@ -23,7 +23,7 @@ If you had to run this work again next week, how would you design the agentic wo
 
 ## Workflow Output
 
-Participants produce a named multi-agent Workflowification with the following sections:
+Participants produce a named multi-agent Workflow with the following sections:
 
 - workflow name
 - goal
@@ -48,7 +48,7 @@ Participants produce a named multi-agent Workflowification with the following se
 
 Create a single Workflow document that another team member could run without additional explanation.
 
-## Example Capstone Workflow
+## Example Workflow
 
 Use [safe-feature-slice-delivery-example.md](safe-feature-slice-delivery-example.md) as a reference. It demonstrates one acceptable way to combine planning, investigation, dynamic data, implementation, review, testing, and PR handoff into a named workflow.
 
@@ -75,7 +75,7 @@ Every workflow must define at least:
 - Context Scout
 - Plan Critic
 - Implementation Agent
-- Diff Prosecutor
+- Diff Reviewer
 - Test Strategist
 - Verification Runner
 
@@ -109,7 +109,7 @@ Suggested roles:
 | Commit Archaeologist | Uses Git history, blame, issues, and PRs to recover intent |
 | Plan Critic | Red-teams the implementation plan before execution |
 | Implementation Agent | Makes scoped code changes phase by phase |
-| Diff Prosecutor | Reviews the diff for scope drift and correctness |
+| Diff Reviewer | Reviews the diff for scope drift and correctness |
 | Test Strategist | Designs test strategy from acceptance criteria |
 | Verification Runner | Runs checks, captures output, and reports pass/fail evidence |
 | PR Narrator | Produces the final PR summary, risks, and follow-ups |
@@ -174,7 +174,7 @@ If you do not have a real team workflow to model yet, start with:
 - Commit Archaeologist
 - Plan Critic
 - Implementation Agent
-- Diff Prosecutor
+- Diff Reviewer
 - Test Strategist
 - Verification Runner
 - PR Narrator
