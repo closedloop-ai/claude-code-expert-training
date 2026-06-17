@@ -2,27 +2,39 @@
 
 ## Purpose
 
-Use this checklist before the one-day intensive to confirm participants are ready for live instruction.
+Complete this checklist **before** the one-day intensive so you arrive ready to build, not to install.
 
-The live session is only five hours. Setup should not consume the teaching blocks.
+The live session is only five hours. Every minute spent fixing setup is a minute taken from hands-on instruction. Run the install and verify steps below on the machine you will use during the session.
 
-## Participant Readiness
+> Tip: run each **Verify** command and confirm you get the expected output. If a command is "not found," the tool is not installed (or not on your `PATH`) — revisit the install step.
 
-Each participant should confirm:
+## 1. Install the Toolchain
 
-- Claude Code is installed and launches successfully
-- Git is installed
-- Python 3 is installed
-- the repository is cloned locally
-- the repository opens in both terminal and IDE
-- the demo app test command runs successfully
-- the demo app script runs successfully
-- the participant understands the baseline permissions posture
-- the participant completed the Lab 00 setup lab
+| Tool | Why you need it | Install | Verify |
+|------|-----------------|---------|--------|
+| **Claude Code** | The CLI you will use all day | [Setup guide](https://docs.claude.com/en/docs/claude-code/setup) · macOS/Linux/WSL: `curl -fsSL https://claude.ai/install.sh \| bash` · Windows (PowerShell): `irm https://claude.ai/install.ps1 \| iex` · npm (any OS, needs Node 18+): `npm install -g @anthropic-ai/claude-code` | `claude --version`<br>then `claude doctor` |
+| **Node.js** (18+) | Required for the npm install of Claude Code and several tools | [nodejs.org/download](https://nodejs.org/en/download) (choose **LTS**) | `node --version` (expect `v18` or newer) |
+| **Git** | Clone the repo and work with version control | [git-scm.com/downloads](https://git-scm.com/downloads) | `git --version` |
+| **Python 3** | Run the demo-app tests and script | [python.org/downloads](https://www.python.org/downloads/) (often preinstalled on macOS/Linux) | `python3 --version` (expect `3.x`) |
+| **An editor / IDE** | Read and edit code alongside the terminal | [VS Code](https://code.visualstudio.com/) · [JetBrains](https://www.jetbrains.com/) — either works | Open the cloned repo folder in it |
 
-## Required Commands
+After installing Claude Code, run `claude doctor` — it checks your install, Node version, and auth in one shot and reports anything missing.
 
-Participants should run:
+## 2. Clone the Repository
+
+```bash
+git clone https://github.com/closedloop-ai/claude-code-expert-training.git
+cd claude-code-expert-training
+```
+
+Then confirm you can open it **both** ways:
+
+- **Terminal:** you are in the `claude-code-expert-training` directory (`pwd` and `ls` show the repo files).
+- **IDE:** open that same folder in your editor (VS Code: `code .`).
+
+## 3. Run the Demo App (Environment Check)
+
+This proves Python and the repo are wired up correctly:
 
 ```bash
 cd examples/demo-app
@@ -30,33 +42,54 @@ python -m pytest
 python src/order_totals.py
 ```
 
-## Instructor Go/No-Go Check
+Expected: the test suite passes, and the script prints order-total output without errors.
 
-Before the session begins, confirm:
+> If `python` is not found, try `python3` instead (`python3 -m pytest`, `python3 src/order_totals.py`).
 
-- most participants completed the required commands
-- participants can access both terminal and editor
-- there are no widespread install blockers
-- participants know where the slides, labs, and demo artifacts live
+## 4. Confirm Claude Code Launches
 
-## If A Participant Is Not Ready
+From the repo root:
 
-Do not use the live session to repair individual setup issues unless the problem is cohort-wide.
+```bash
+claude
+```
 
-Instead:
+You should land in an interactive Claude Code session. Exit with `/exit` (or `Ctrl-C` twice). If this is your first run, follow the prompts to authenticate.
 
-- redirect them to Lab 00
-- pair them with a ready participant if needed
-- have them observe the first block while resolving setup in parallel
+## 5. Understand the Baseline Permissions Posture
 
-## Minimum Acceptable State
+Skim how Claude Code decides what it can run without asking, so the live permissions discussion lands faster:
 
-A participant is minimally ready if:
+- [TOOL-PERMISSIONS-EXAMPLES.md](TOOL-PERMISSIONS-EXAMPLES.md)
+- [Claude Code permissions & settings](https://docs.claude.com/en/docs/claude-code/settings)
 
-- they can open the repo
-- they can run the demo-app tests
-- they can run the demo-app script
-- they can follow the slide deck and open the demo artifacts
+You do not need to master this — just know what "default-deny vs. allow" means before the session.
+
+## 6. Complete Lab 00
+
+Work through the setup lab end to end:
+
+- [labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md)
+
+## You're Ready When
+
+Self-check — every box should be ticked before the session:
+
+- [ ] `claude --version` and `claude doctor` succeed
+- [ ] `git --version` and `python3 --version` succeed
+- [ ] the repo is cloned and opens in **both** terminal and IDE
+- [ ] `python -m pytest` passes in `examples/demo-app`
+- [ ] `python src/order_totals.py` runs and prints output
+- [ ] you can launch an interactive `claude` session
+- [ ] you understand the baseline permissions posture
+- [ ] you completed Lab 00
+
+## If You Get Stuck
+
+- Re-run the relevant **Verify** command above and read the error — most issues are a missing install or a `PATH` problem.
+- `claude doctor` diagnoses most Claude Code install and auth issues.
+- Work through [Lab 00](../labs/00-no-speed-limits-setup-local-stack-bootstrap/LAB.md) step by step.
+- If something is still broken, note the exact command and error so it can be resolved quickly at the start of the session.
 
 ## Related Files
 
