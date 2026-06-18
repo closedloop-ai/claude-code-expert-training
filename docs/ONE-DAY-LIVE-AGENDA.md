@@ -19,22 +19,30 @@ You're ready when `claude` runs on your machine and the demo check passes.
 
 ## Schedule
 
-Each regional session starts at **9:00 AM local time**. These module timeboxes match the workbook, which is the single source of truth for the day.
+Your session's start time is in your calendar invite (it varies by region). The flow and timeboxes below match the workbook, which is the single source of truth for the day.
 
-| Time | Segment | What you'll do | What you'll leave with |
-|------|---------|----------------|------------------------|
-| 9:00–9:05 AM | Welcome & setup check | Confirm everyone's environment is ready |  |
-| 9:05–10:15 AM | Module 1: Build Claude Code primitives | Tools, commands, skills, agents, subagents, plugins; interactive vs. headless; choosing the right model for the job | A primitive kit |
-| 10:15–10:25 AM | Break | | |
-| 10:25–11:20 AM | Module 2: Planning & context management | Turn messy intake into a compact, reviewable Implementation Plan; manage the context window | An Implementation Plan + context map |
-| 11:20–11:30 AM | Break | | |
-| 11:30 AM–12:30 PM | Module 3: Intent recovery & dynamic evidence | Use git history, issues, logs, tests, and screenshots to find the *why* before changing code | Explore findings + a Request Changes review |
-| 12:30–1:30 PM | Lunch break (1 hour) | | |
-| 1:30–2:30 PM | Module 4: Review, test & verify | Review the diff against the plan; make scope, regression risk, and verification explicit | Findings + a Review |
-| 2:30–3:15 PM | Module 5: Workflow design & improvement loop | Turn the day's steps into one named, repeatable workflow with handoffs, gates, and stop conditions | A Workflow + one improvement note |
-| 3:15–3:20 PM | Wrap-up & next steps | What to try first next week |  |
+### Morning: about three hours of modules, before lunch
 
-*Roughly three hours of modules before a one-hour lunch and about two hours after, with two short (10-minute) breaks between the morning modules: about five hours of instruction, roughly six hours including lunch and breaks.*
+| Segment | Length | What you'll do | What you'll leave with |
+|---------|--------|----------------|------------------------|
+| Welcome & setup check | 5 min | Confirm everyone's environment is ready |  |
+| Module 1: Build Claude Code primitives | 70 min | Tools, commands, skills, agents, subagents, plugins; interactive vs. headless; choosing the right model for the job | A primitive kit |
+| Break | 10 min | | |
+| Module 2: Planning & context management | 55 min | Turn messy intake into a compact, reviewable Implementation Plan; manage the context window | An Implementation Plan + context map |
+| Break | 10 min | | |
+| Module 3: Intent recovery & dynamic evidence | 60 min | Use git history, issues, logs, tests, and screenshots to find the *why* before changing code | Explore findings + a Request Changes review |
+
+### Lunch: 1 hour
+
+### Afternoon: about two hours of modules
+
+| Segment | Length | What you'll do | What you'll leave with |
+|---------|--------|----------------|------------------------|
+| Module 4: Review, test & verify | 60 min | Review the diff against the plan; make scope, regression risk, and verification explicit | Findings + a Review |
+| Module 5: Workflow design & improvement loop | 45 min | Turn the day's steps into one named, repeatable workflow with handoffs, gates, and stop conditions | A Workflow + one improvement note |
+| Wrap-up & next steps | 5 min | What to try first next week |  |
+
+*About five hours of instruction, roughly six hours including the one-hour lunch and two short (10-minute) breaks between the morning modules.*
 
 ## What you'll leave with
 
