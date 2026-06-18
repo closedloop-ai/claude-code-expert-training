@@ -1,4 +1,4 @@
-# ClosedLoop.AI — Claude Code One-Day Intensive
+# Closedloop.ai — Claude Code One-Day Intensive
 
 Everything you need for the one-day, hands-on Claude Code training. The day teaches one repeatable operating model: **craft the right Claude Code primitives, plan and manage context, recover intent with evidence, review and verify against the plan, and design a workflow you can reuse.**
 

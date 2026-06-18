@@ -42,7 +42,7 @@ Seven small artifacts you can reuse at work: a primitive kit, an Implementation 
 
 ## How questions work
 
-Drop questions in the chat any time. A second ClosedLoop.AI instructor will be in chat to answer questions live while the session continues, and we'll recap the top themes from chat at the end of each module.
+Drop questions in the chat any time. A second Closedloop.ai instructor will be in chat to answer questions live while the session continues, and we'll recap the top themes from chat at the end of each module.
 
 ## A note on level
 
