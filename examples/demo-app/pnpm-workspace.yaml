@@ -1,0 +1,13 @@
+# pnpm 10+ blocks dependency build (install) scripts by default for supply-chain
+# safety. esbuild (a transitive dependency of vitest and tsx) has an install
+# script, so without an explicit approval `pnpm install` fails with
+# ERR_PNPM_IGNORED_BUILDS, and pnpm's pre-run deps check then makes `pnpm test`
+# and `pnpm demo` fail too — breaking the pre-work checklist on a fresh clone.
+#
+# `allowBuilds` is the approval key used by pnpm 11 (what `pnpm approve-builds`
+# writes); `onlyBuiltDependencies` is the equivalent for pnpm 10. Both are listed
+# so the demo works regardless of which recent pnpm a student installs.
+allowBuilds:
+  esbuild: true
+onlyBuiltDependencies:
+  - esbuild
