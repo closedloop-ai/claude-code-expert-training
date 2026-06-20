@@ -821,9 +821,10 @@ Review this diff against the compact plan. Return findings only with severity, f
 <section class="chapter" id="token_savings_field_guide">
 <h1>Token Savings Field Guide</h1>
 <div class="objective"><strong>Student goal:</strong> Use token efficiency as an engineering operating habit: search first, point precisely, delegate noisy work, compact at phase boundaries, and turn repeated work into reusable artifacts.</div>
-<p>Token savings are not about making Claude think less. They are about keeping the context window focused on the material that changes the outcome. Read the nine moves below as a rough progression, not a checklist of rules: the early ones are reflexes you build in your first week, the later ones are habits you grow into as your sessions get more ambitious. You will not do all nine on every task, but the more advanced your work gets, the more of them you will reach for without thinking.</p>
+<p>Token savings are not about making Claude think less. They are about keeping the context window focused on the material that changes the outcome. Read the ten moves below as a rough progression, not a checklist of rules: the early ones are reflexes you build in your first week, the later ones are habits you grow into as your sessions get more ambitious. You will not do all ten on every task, but the more advanced your work gets, the more of them you will reach for without thinking.</p>
 <h2>1. Enable RTK for noisy command output</h2>
 <p><strong><a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">RTK (Rust Token Killer)</a></strong> is a CLI proxy that compresses noisy command output before it reaches Claude's context, so a run that would have streamed hundreds of lines into the session lands as a compact, structured summary instead. It is useful when shell output is large, repetitive, or noisy. The impact compounds because command output does not just cost tokens once; it remains in the session and can be re-read on later turns.</p>
+<p><strong>The deep cut:</strong> RTK is content-aware, and that distinction is the whole point. It compresses the low-signal output (test runs, build logs, status noise) and leaves your <strong>source code untouched</strong>, because compressing the code Claude is reasoning over would degrade the reasoning itself. This is the same principle as the rest of this guide: cut the noise, never the signal. It is why you can leave RTK on by default instead of toggling it per command.</p>
 <pre><code>rtk gain              # cumulative token savings this session
 rtk gain --history    # per-command breakdown with savings
 rtk discover          # find missed compression opportunities
@@ -834,6 +835,7 @@ Good RTK targets:
 - git status and diff noise
 - package manager output
 - long formatter or type-checker traces</code></pre>
+<p>You do not need to memorize which commands save the most, because one evergreen rule predicts it: <strong>the more predictable a command's output, the more of it is compressible noise.</strong> File reads and searches carry real signal, so the win is partial. Lint, type-check, and test runs that pass are almost pure boilerplate, so they compress nearly to nothing. When you meet a new noisy command, you can guess its payoff by asking how much of its output a human would actually read.</p>
 <div class="callout"><strong>Practice habit:</strong> If a command regularly emits hundreds or thousands of lines, compress it, script it, or summarize it before it enters the main Claude context.</div>
 <h2>2. Move repeated tasks to executable scripts</h2>
 <p>The third time you type roughly the same instructions, treat it as a signal rather than a chore. Every repeat costs you twice: you re-describe the workflow, and Claude re-infers what you meant, sometimes differently than last time. Pinning that sequence into a stable script makes it cheaper, faster, and far more predictable, and it frees the conversation for the judgment only you can supply.</p>
@@ -913,7 +915,10 @@ Cap the answer at 10 bullets unless a blocking risk requires more.
 
 /compact focusing on decisions made, evidence pointers, files touched,
 unresolved questions, and residual risk.</code></pre>
-<h2>9. End-of-task token checklist</h2>
+<h2>9. Keep the front of the conversation stable</h2>
+<p>The cheapest token is the one you never resend. Model APIs reward this directly: when the <em>beginning</em> of a request matches a previous one, the shared prefix is served from cache at a steep discount, so stability at the top of the context window is money. The evergreen principle underneath the pricing is simple and will outlast any specific discount rate: <strong>pin durable context (system prompt, project rules, the plan) at the top, and let churn happen at the bottom.</strong></p>
+<p>Reordering or rewriting early turns quietly invalidates that cache and you pay full freight again. This is also why a guided <code>/compact</code> at a phase boundary beats constant mid-task edits: it rewrites the context once, deliberately, instead of disturbing the stable prefix on every turn. Treat the top of your session as something you set carefully and then leave alone.</p>
+<h2>10. End-of-task token checklist</h2>
 <div class="table-wrap"><table class="data-table compact-table"><thead><tr><th>Before asking Claude to work</th><th>Before continuing the session</th></tr></thead><tbody>
 <tr><td>Have I named the artifact I want?</td><td>Did I save decisions into an artifact?</td></tr>
 <tr><td>Have I bounded files, paths, commands, and output length?</td><td>Did I compress noisy evidence into pointers?</td></tr>
