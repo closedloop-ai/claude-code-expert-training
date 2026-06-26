@@ -1,0 +1,95 @@
+Mon Jun 22 14:42:01 CDT 2026: Session end hook started, session=b52d0454-bf90-422d-89ba-1c65302543fd, reason=other
+Mon Jun 22 14:42:01 CDT 2026: Session cleanup complete
+Wed Jun 24 21:49:32 CDT 2026: Session end hook started, session=7e0789c1-b334-42ac-9cfa-33e030bcb68c, reason=clear
+Wed Jun 24 21:49:32 CDT 2026: Removing stale PID mapping (PID 47974 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-47974.session
+Wed Jun 24 21:49:32 CDT 2026: Session cleanup complete
+Thu Jun 25 09:58:26 CDT 2026: Session end hook started, session=70dcf8c4-4203-454b-afb9-6581905f2440, reason=other
+Thu Jun 25 09:58:26 CDT 2026: Session cleanup complete
+Thu Jun 25 10:31:47 CDT 2026: Session end hook started, session=5f5c6d8d-bab6-4d94-8aba-944889953001, reason=prompt_input_exit
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 19119 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-19119.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 30246 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-30246.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 34076 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-34076.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 87919 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-87919.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 88040 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-88040.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 88142 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-88142.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 88232 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-88232.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 88301 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-88301.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 88379 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-88379.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 93306 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-93306.session
+Thu Jun 25 10:31:47 CDT 2026: Removing stale PID mapping (PID 95232 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-95232.session
+Thu Jun 25 10:31:47 CDT 2026: Session cleanup complete
+Thu Jun 25 15:46:04 CDT 2026: Session end hook started, session=d0ca7deb-1a9e-41ae-8569-cf2af73bf24c, reason=clear
+Thu Jun 25 15:46:05 CDT 2026: Removing stale PID mapping (PID 1766 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-1766.session
+Thu Jun 25 15:46:05 CDT 2026: Session cleanup complete
+Thu Jun 25 23:44:57 CDT 2026: Session end hook started, session=68e7a925-1849-4386-8b1f-d4d677a33ef1, reason=other
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 23977 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-23977.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 25887 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-25887.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 28779 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-28779.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 30950 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-30950.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 41419 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-41419.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 43708 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-43708.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 70538 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-70538.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 81990 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-81990.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 81993 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-81993.session
+Thu Jun 25 23:44:57 CDT 2026: Removing stale PID mapping (PID 81995 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-81995.session
+Thu Jun 25 23:44:57 CDT 2026: Session cleanup complete
+Thu Jun 25 23:44:59 CDT 2026: Session end hook started, session=9a02ac44-b80b-4cad-bb88-eae96b9eb06b, reason=other
+Thu Jun 25 23:44:59 CDT 2026: Removing stale PID mapping (PID 89426 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89426.session
+Thu Jun 25 23:44:59 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:07 CDT 2026: Session end hook started, session=bbb3bf76-e81f-4c24-bd2d-c396b5a44e85, reason=other
+Thu Jun 25 23:45:07 CDT 2026: Session end hook started, session=faea6a0b-d666-498d-8278-a2bff62d859d, reason=other
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 71073 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-71073.session
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 71073 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-71073.session
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 78120 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-78120.session
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 78120 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-78120.session
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 89569 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89569.session
+Thu Jun 25 23:45:07 CDT 2026: Removing stale PID mapping (PID 89569 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89569.session
+Thu Jun 25 23:45:07 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:07 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:08 CDT 2026: Session end hook started, session=6766d882-ec33-4c25-a4ae-ff014039ce7e, reason=other
+Thu Jun 25 23:45:08 CDT 2026: Removing stale PID mapping (PID 89755 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89755.session
+Thu Jun 25 23:45:08 CDT 2026: Removing stale PID mapping (PID 89759 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89759.session
+Thu Jun 25 23:45:08 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:09 CDT 2026: Session end hook started, session=ad07caff-2694-40b7-85c7-9aa26246e178, reason=other
+Thu Jun 25 23:45:09 CDT 2026: Removing stale PID mapping (PID 89757 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89757.session
+Thu Jun 25 23:45:09 CDT 2026: Session end hook started, session=2463243a-111c-4c7e-b4ee-bc237feb23e6, reason=other
+Thu Jun 25 23:45:09 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:09 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:09 CDT 2026: Session end hook started, session=e0b8b741-a315-4a3f-9760-9de71b19f9bd, reason=other
+Thu Jun 25 23:45:09 CDT 2026: Removing stale PID mapping (PID 89991 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89991.session
+Thu Jun 25 23:45:09 CDT 2026: Removing stale PID mapping (PID 89993 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-89993.session
+Thu Jun 25 23:45:09 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:10 CDT 2026: Session end hook started, session=2385fd8c-4f85-42c1-9540-634516e1ff0f, reason=other
+Thu Jun 25 23:45:10 CDT 2026: Session end hook started, session=5a322183-eef5-4c4b-a543-68780e46665c, reason=other
+Thu Jun 25 23:45:10 CDT 2026: Removing stale PID mapping (PID 90108 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90108.session
+Thu Jun 25 23:45:10 CDT 2026: Removing stale PID mapping (PID 90108 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90108.session
+Thu Jun 25 23:45:10 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:10 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:11 CDT 2026: Session end hook started, session=56805468-d95a-4723-ac20-9a7e6a3bc088, reason=other
+Thu Jun 25 23:45:11 CDT 2026: Removing stale PID mapping (PID 90274 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90274.session
+Thu Jun 25 23:45:11 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:12 CDT 2026: Session end hook started, session=1b051950-a059-477e-8a23-9940b857916f, reason=other
+Thu Jun 25 23:45:12 CDT 2026: Removing stale PID mapping (PID 90248 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90248.session
+Thu Jun 25 23:45:12 CDT 2026: Removing stale PID mapping (PID 90344 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90344.session
+Thu Jun 25 23:45:12 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:12 CDT 2026: Session end hook started, session=28a378b2-8824-47eb-80b5-aef3287963ec, reason=other
+Thu Jun 25 23:45:12 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:12 CDT 2026: Session end hook started, session=b7225cfd-2492-4c2b-a125-acd9144ff426, reason=other
+Thu Jun 25 23:45:12 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:13 CDT 2026: Session end hook started, session=3cb4fb57-d21f-4a8f-b825-f8529da0c1b9, reason=other
+Thu Jun 25 23:45:13 CDT 2026: Removing stale PID mapping (PID 90546 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90546.session
+Thu Jun 25 23:45:13 CDT 2026: Removing stale PID mapping (PID 90563 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90563.session
+Thu Jun 25 23:45:13 CDT 2026: Session end hook started, session=1dde3a5c-7f09-46fe-8d11-8fb6aef56d6c, reason=other
+Thu Jun 25 23:45:13 CDT 2026: Removing stale PID mapping (PID 90575 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90575.session
+Thu Jun 25 23:45:14 CDT 2026: Session cleanup complete
+Thu Jun 25 23:45:14 CDT 2026: Session cleanup complete
+Thu Jun 25 23:48:06 CDT 2026: Session end hook started, session=2f92ce64-3e3e-4921-b42a-141fc9d985d7, reason=prompt_input_exit
+Thu Jun 25 23:48:06 CDT 2026: Removing stale PID mapping (PID 90812 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90812.session
+Thu Jun 25 23:48:06 CDT 2026: Removing stale PID mapping (PID 90821 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-90821.session
+Thu Jun 25 23:48:06 CDT 2026: Session cleanup complete
+Fri Jun 26 00:24:55 CDT 2026: Session end hook started, session=9fa0d18d-f3be-4568-8e0c-0551ec072ed2, reason=logout
+Fri Jun 26 00:24:55 CDT 2026: Removing stale PID mapping (PID 20181 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-20181.session
+Fri Jun 26 00:24:55 CDT 2026: Session cleanup complete
+Fri Jun 26 00:25:53 CDT 2026: Session end hook started, session=b58893e7-3421-4852-bade-ac5e16dbdb19, reason=prompt_input_exit
+Fri Jun 26 00:25:53 CDT 2026: Removing stale PID mapping (PID 91103 no longer exists): /Users/mike.angstadt/Demo/claude-code-expert-training/examples/demo-app/.closedloop-ai/pid-91103.session
+Fri Jun 26 00:25:53 CDT 2026: Session cleanup complete

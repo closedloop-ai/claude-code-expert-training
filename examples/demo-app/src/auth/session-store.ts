@@ -47,7 +47,7 @@ export class SessionStore {
       issuedAt: Date.now(),
     };
     this.sessionsByToken.set(rotated.refreshToken, rotated);
-    // TODO (course exercise): this.sessionsByToken.delete(refreshToken);
+    this.sessionsByToken.delete(refreshToken);
     return rotated;
   }
 

@@ -16,8 +16,35 @@ describe("refresh token rotation", () => {
     expect(() => store.rotate("not-a-real-token")).toThrow(/invalid refresh token/);
   });
 
-  // NOTE: there is deliberately no test here for reuse of the OLD refresh
-  // token after rotation. The store currently still accepts it. Writing that
-  // regression test — and making it pass by invalidating the old token in
-  // SessionStore.rotate — is the exercise that threads Modules 2-5.
+  // Regression test for the course bug: after rotation the OLD refresh token
+  // must no longer validate. This currently FAILS — SessionStore.rotate leaves
+  // the previous token in the store. Making it pass by invalidating the old
+  // token in rotate() is the exercise that threads Modules 2-5.
+  it("invalidates the old refresh token after rotation", () => {
+    const store = new SessionStore();
+    const first = store.issue("alice");
+    store.rotate(first.refreshToken);
+
+    expect(store.validate(first.refreshToken)).toBe(false);
+  });
+
+  it("rejects an attempt to rotate an already-rotated token", () => {
+    const store = new SessionStore();
+    const first = store.issue("alice");
+    store.rotate(first.refreshToken);
+
+    // The old token must not be reusable to mint another session.
+    expect(() => store.rotate(first.refreshToken)).toThrow(/invalid refresh token/);
+  });
+
+  it("invalidates every prior token across repeated rotations", () => {
+    const store = new SessionStore();
+    const first = store.issue("alice");
+    const second = store.rotate(first.refreshToken);
+    const third = store.rotate(second.refreshToken);
+
+    expect(store.validate(first.refreshToken)).toBe(false);
+    expect(store.validate(second.refreshToken)).toBe(false);
+    expect(store.validate(third.refreshToken)).toBe(true);
+  });
 });

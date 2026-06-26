@@ -1,0 +1,15 @@
+Thu Jun 25 11:50:51 CDT 2026: SubagentStart hook fired — agent_type=general-purpose agent_id=a780326f3e95f7521 session_id=d0ca7deb-1a9e-41ae-8569-cf2af73bf24c
+Thu Jun 25 11:59:10 CDT 2026: SubagentStart hook fired — agent_type=general-purpose agent_id=afe6066ea2721af20 session_id=d0ca7deb-1a9e-41ae-8569-cf2af73bf24c
+Thu Jun 25 14:07:26 CDT 2026: SubagentStart hook fired — agent_type=Explore agent_id=ac1ac27942878b2cf session_id=d0ca7deb-1a9e-41ae-8569-cf2af73bf24c
+Thu Jun 25 16:11:44 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a8fc9886d7daf9fae session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:11:44 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a727d52717bbea94b session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:11:44 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a6ba7f104df204dfe session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:11:44 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a2e98f45cd5617cd1 session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:11:44 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=acb2f2a259bb05a9c session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a12cfcd9a00276274 session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=aa89c2946974adc5b session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a53e4d20f21bbbfba session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a17db2ffca0d876f3 session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=a416f3733dc7ed31c session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=af634190a83f933dc session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
+Thu Jun 25 16:13:37 CDT 2026: SubagentStart hook fired — agent_type=workflow-subagent agent_id=acce6d7c373d1ddff session_id=ca6e3bee-49dc-4df7-a7bd-815258badbc2
