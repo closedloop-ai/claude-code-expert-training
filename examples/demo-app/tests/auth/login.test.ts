@@ -14,4 +14,14 @@ describe("login", () => {
     const store = new SessionStore();
     expect(() => login(store, "alice", "")).toThrow();
   });
+
+  it("returns exactly the login response contract (no extra fields leaked)", () => {
+    const store = new SessionStore();
+    const result = login(store, "alice", "correct-horse-battery-staple");
+
+    // Goal: rotation work must not change the login response shape. Internal
+    // fields like familyId/issuedAt must never surface in the login result.
+    expect(Object.keys(result).sort()).toEqual(["refreshToken", "userId"]);
+    expect(result.userId).toBe("alice");
+  });
 });
